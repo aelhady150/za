@@ -1,0 +1,3896 @@
+{
+  "xmlDiagnosticData" : "
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n
+<DiagnosticData xmlns=\"http://dss.esig.europa.eu/validation/diagnostic\">\n    
+    <DocumentName>Barid eSign - CertQ 1.pdf</DocumentName>\n
+    <ValidationDate>2023-03-09T11:29:38Z</ValidationDate>\n
+    <Signatures>\n        
+        <Signature Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\">\n            
+            <SignatureFilename>Barid eSign - CertQ 1.pdf</SignatureFilename>\n
+            <ClaimedSigningTime>2020-08-27T14:59:15Z</ClaimedSigningTime>\n
+            <SignatureFormat>PDF-NOT-ETSI</SignatureFormat>\n
+            <StructuralValidation valid=\"true\"/>\n
+            <DigestMatchers>\n                
+                <DigestMatcher type=\"MESSAGE_DIGEST\">\n                    
+                    <DigestMethod>SHA1</DigestMethod>\n
+                    <DigestValue>1ieave1O2f05nR6S6xDu8BMDoTc=</DigestValue>\n
+                    <DataFound>true</DataFound>\n
+                    <DataIntact>true</DataIntact>\n
+                </DigestMatcher>\n
+            </DigestMatchers>\n
+            <BasicSignature>\n                
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>\n
+                <KeyLengthUsedToSignThisToken>2048</KeyLengthUsedToSignThisToken>\n
+                <DigestAlgoUsedToSignThisToken>SHA1</DigestAlgoUsedToSignThisToken>\n
+                <SignatureIntact>true</SignatureIntact>\n
+                <SignatureValid>true</SignatureValid>\n
+            </BasicSignature>\n
+            <SigningCertificate Certificate=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\"/>\n
+            <CertificateChain>\n                
+                <ChainItem Certificate=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\"/>\n
+            </CertificateChain>\n
+            <ContentType>1.2.840.113549.1.7.1</ContentType>\n
+            <CommitmentTypeIndications/>\n
+            <SignerInformationStore>\n                
+                <SignerInfo Current=\"true\">\n                    
+                    <IssuerName>CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA</IssuerName>\n
+                    <SerialNumber>176582600188646856643663170787160952277423105426</SerialNumber>\n
+                </SignerInfo>\n
+            </SignerInformationStore>\n
+            <PDFRevision>\n                
+                <SignatureField name=\"Signature1\"/>\n
+                <PDFSignatureDictionary>\n                    
+                    <Type>Sig</Type>\n
+                    <Filter>Adobe.PPKLite</Filter>\n
+                    <SubFilter>ETSI.CAdES.detached</SubFilter>\n
+                    <SignatureByteRange>0 3785 20171 159363</SignatureByteRange>\n
+                </PDFSignatureDictionary>\n
+            </PDFRevision>\n
+            <SignerDocumentRepresentations HashOnly=\"false\" DocHashOnly=\"false\"/>\n
+            <FoundCertificates>\n                
+                <RelatedCertificate Certificate=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\">\n                    
+                    <Origin>SIGNED_DATA</Origin>\n
+                    <CertificateRef>\n                        
+                        <Origin>SIGNING_CERTIFICATE</Origin>\n
+                        <DigestAlgoAndValue match=\"true\">\n                            
+                            <DigestMethod>SHA1</DigestMethod>\n
+                            <DigestValue>v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=</DigestValue>\n
+                        </DigestAlgoAndValue>\n
+                    </CertificateRef>\n
+                </RelatedCertificate>\n
+            </FoundCertificates>\n
+            <FoundRevocations/>\n
+            <FoundTimestamps/>\n
+            <SignatureScopes>\n                
+                <SignatureScope SignerData=\"DOCUMENT_Full-PDF\">\n                    
+                    <Scope>FULL</Scope>\n
+                    <Name>Full PDF</Name>\n
+                    <Description>The document ByteRange : [0, 3785, 20171, 159363]</Description>\n
+                </SignatureScope>\n
+            </SignatureScopes>\n
+            <SignatureDigestReference>\n                
+                <DigestMethod>SHA256</DigestMethod>\n
+                <DigestValue>thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0=</DigestValue>\n
+            </SignatureDigestReference>\n
+            <DataToBeSignedRepresentation>\n                
+                <DigestMethod>SHA1</DigestMethod>\n
+                <DigestValue>j3CEH84ccldDX5XQTMa4mKTRngw=</DigestValue>\n
+            </DataToBeSignedRepresentation>\n
+            <SignatureValue>Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==</SignatureValue>\n
+        </Signature>\n
+    </Signatures>\n
+    <UsedCertificates>\n        
+        <Certificate Id=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\">\n            
+            <SubjectDistinguishedName Format=\"CANONICAL\">2.5.4.5=#130839392d3131373432,uid=y35007,cn=el bahhari abdessamad,ou=ancfcc,o=ancfcc,c=ma</SubjectDistinguishedName>\n
+            <SubjectDistinguishedName Format=\"RFC2253\">2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA</SubjectDistinguishedName>\n
+            <IssuerDistinguishedName Format=\"CANONICAL\">cn=baridesign ac classe 3,ou=baridesign,ou=50413,o=barid al maghrib,c=ma</IssuerDistinguishedName>\n
+            <IssuerDistinguishedName Format=\"RFC2253\">CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA</IssuerDistinguishedName>\n
+            <SerialNumber>176582600188646856643663170787160952277423105426</SerialNumber>\n
+            <SubjectSerialNumber>99-11742</SubjectSerialNumber>\n
+            <CommonName>EL BAHHARI Abdessamad</CommonName>\n
+            <CountryName>MA</CountryName>\n
+            <OrganizationName>ANCFCC</OrganizationName>\n
+            <OrganizationalUnit>ANCFCC</OrganizationalUnit>\n
+            <SubjectAlternativeNames>\n                
+                <subjectAlternativeName>a.elbahhari@ancfcc.gov.ma</subjectAlternativeName>\n
+            </SubjectAlternativeNames>\n
+            <AuthorityInformationAccessUrls/>\n
+            <CRLDistributionPoints>\n                
+                <crlUrl>http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl</crlUrl>\n
+            </CRLDistributionPoints>\n
+            <OCSPAccessUrls>\n                
+                <ocspServerUrl>http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP</ocspServerUrl>\n
+            </OCSPAccessUrls>\n
+            <Sources>\n                
+                <Source>SIGNATURE</Source>\n
+            </Sources>\n
+            <NotAfter>2020-05-08T08:43:16Z</NotAfter>\n
+            <NotBefore>2018-05-08T08:43:16Z</NotBefore>\n
+            <PublicKeySize>2048</PublicKeySize>\n
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>\n
+            <EntityKey>PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F</EntityKey>\n
+            <KeyUsageBits>\n                
+                <KeyUsage>nonRepudiation</KeyUsage>\n
+            </KeyUsageBits>\n
+            <ExtendedKeyUsages/>\n
+            <IdPkixOcspNoCheck>false</IdPkixOcspNoCheck>\n
+            <BasicSignature>\n                
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>\n
+                <KeyLengthUsedToSignThisToken>?</KeyLengthUsedToSignThisToken>\n
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>\n
+                <SignatureIntact>false</SignatureIntact>\n
+                <SignatureValid>false</SignatureValid>\n
+            </BasicSignature>\n
+            <CertificateChain/>\n
+            <Trusted>false</Trusted>\n
+            <SelfSigned>false</SelfSigned>\n
+            <CertificatePolicies>\n                
+                <certificatePolicy cpsUrl=\"Signature__Securisee\">1.2.504.1.1.1.1.1.1.1.27.4</certificatePolicy>\n
+            </CertificatePolicies>\n
+            <QcStatements>\n                
+                <QcCompliance present=\"true\"/>\n
+                <QcSSCD present=\"true\"/>\n
+            </QcStatements>\n
+            <TrustedServiceProviders/>\n
+            <DigestAlgoAndValue>\n                
+                <DigestMethod>SHA256</DigestMethod>\n
+                <DigestValue>vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=</DigestValue>\n
+            </DigestAlgoAndValue>\n
+        </Certificate>\n
+    </UsedCertificates>\n
+    <UsedRevocations/>\n
+    <UsedTimestamps/>\n
+    <OriginalDocuments>\n        
+        <SignerData Id=\"DOCUMENT_Full-PDF\">\n            
+            <ReferencedName>Full PDF</ReferencedName>\n
+            <DigestAlgoAndValue>\n                
+                <DigestMethod>SHA256</DigestMethod>\n
+                <DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>\n
+            </DigestAlgoAndValue>\n
+        </SignerData>\n
+    </OriginalDocuments>\n
+    <TrustedLists/>\n
+</DiagnosticData>\n",
+  "xmlDetailedReport" : "
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n
+<DetailedReport ValidationTime=\"2023-03-09T11:29:38Z\" xmlns=\"http://dss.esig.europa.eu/validation/detailed-report\">\n    
+    <Signature Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\">\n        
+        <ValidationProcessBasicSignature Title=\"Validation Process for Basic Signatures\">\n            
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC\">\n                
+                <Name Key=\"BSV_IFCRC\">Is the result of the 'Format Checking' building block conclusive?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC\">\n                
+                <Name Key=\"BSV_IISCRC\">Is the result of the 'Identification of Signing Certificate' building block conclusive?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI\">\n                
+                <Name Key=\"BSV_IVCIRC\">Is the result of the 'Validation Context Initialization' building block conclusive?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV\">\n                
+                <Name Key=\"BSV_IXCVRC\">Is the result of the 'X.509 Certificate Validation' building block conclusive?</Name>\n
+                <Status>WARNING</Status>\n
+                <Warning Key=\"BSV_IXCVRC_ANS\">The result of the 'X.509 Certificate Validation' building block is not conclusive!</Warning>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV\">\n                
+                <Name Key=\"BSV_ISCRAVTC\">Is the signing certificate not revoked at validation time?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV\">\n                
+                <Name Key=\"BSV_IVTAVRSC\">Is the validation time in the validity range of the signing certificate?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV\">\n                
+                <Name Key=\"BSV_ICVRC\">Is the result of the 'Cryptographic Verification' building block conclusive?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\">\n                
+                <Name Key=\"ADEST_ROBVPIIC\">Is the result of the Basic Validation Process conclusive?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"ADEST_ROBVPIIC_ANS\">The result of the Basic validation process is not conclusive!</Error>\n
+                <AdditionalInfo>Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication</AdditionalInfo>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>INDETERMINATE</Indication>\n
+                <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+                <Errors Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Errors>\n
+                <Errors Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Errors>\n
+            </Conclusion>\n
+            <ProofOfExistence>\n                
+                <Time>2023-03-09T11:29:38Z</Time>\n
+            </ProofOfExistence>\n
+        </ValidationProcessBasicSignature>\n
+        <ValidationProcessLongTermData Title=\"Validation Process for Signatures with Time and Signatures with Long-Term Validation Data\">\n            
+            <Constraint>\n                
+                <Name Key=\"LTV_ABSV\">Is the result of the Basic Validation Process acceptable?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"LTV_ABSV_ANS\">The result of the Basic validation process is not acceptable to continue the process!</Error>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>INDETERMINATE</Indication>\n
+                <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+                <Errors Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Errors>\n
+                <Errors Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Errors>\n
+            </Conclusion>\n
+            <ProofOfExistence>\n                
+                <Time>2023-03-09T11:29:38Z</Time>\n
+            </ProofOfExistence>\n
+        </ValidationProcessLongTermData>\n
+        <ValidationProcessArchivalData Title=\"Validation Process for Signatures with Archival Data\">\n            
+            <Constraint>\n                
+                <Name Key=\"ARCH_LTVV\">Is the result of the LTV validation process acceptable?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"ARCH_LTVV_ANS\">The result of the LTV validation process is not acceptable to continue the process!</Error>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>INDETERMINATE</Indication>\n
+                <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+                <Errors Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Errors>\n
+                <Errors Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Errors>\n
+            </Conclusion>\n
+            <ProofOfExistence>\n                
+                <Time>2023-03-09T11:29:38Z</Time>\n
+            </ProofOfExistence>\n
+        </ValidationProcessArchivalData>\n
+        <ValidationSignatureQualification SignatureQualification=\"N/A\" Title=\"Signature Qualification\">\n            
+            <Constraint>\n                
+                <Name Key=\"QUAL_IS_ADES\">Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?</Name>\n
+                <Status>WARNING</Status>\n
+                <Warning Key=\"QUAL_IS_ADES_IND\">The signature/seal is an INDETERMINATE AdES digital signature!</Warning>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"QUAL_CERT_TRUSTED_LIST_REACHED\">Has a trusted list been reached for the certificate chain?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"QUAL_CERT_TRUSTED_LIST_REACHED_ANS\">Unable to build a certificate chain up to a trusted list!</Error>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>FAILED</Indication>\n
+                <Errors Key=\"QUAL_CERT_TRUSTED_LIST_REACHED_ANS\">Unable to build a certificate chain up to a trusted list!</Errors>\n
+                <Warnings Key=\"QUAL_IS_ADES_IND\">The signature/seal is an INDETERMINATE AdES digital signature!</Warnings>\n
+            </Conclusion>\n
+        </ValidationSignatureQualification>\n
+        <Conclusion>\n            
+            <Indication>INDETERMINATE</Indication>\n
+            <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+        </Conclusion>\n
+    </Signature>\n
+    <BasicBuildingBlocks Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\" Type=\"SIGNATURE\">\n        
+        <FC Title=\"Format Checking\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_IEFF\">Does the signature format correspond to an expected format?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_ISD\">Is the signature identification not ambiguous?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_ISRIA\">Is the signed references identification not ambiguous?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_IOSIP\">Is only one SignerInfo present?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_DSFREAP\">Do signed and final revisions contain equal amount of pages?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_IAOD\">Is no element overlapping detected in the PDF?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_IVDBSFR\">Is there no visual difference between signed and final revisions in the PDF?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_FC_DSCNUOM\">Does the document contain none of the undefined object modifications?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>PASSED</Indication>\n
+            </Conclusion>\n
+        </FC>\n
+        <ISC Title=\"Identification of the Signing Certificate\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_ICS_ISCI\">Is there an identified candidate for the signing certificate?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_ICS_ISACDP\">Is the signed attribute: 'cert-digest' of the certificate present?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_ICS_ICDVV\">Does the certificate digest value match a digest value found in the certificate reference(s)?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>PASSED</Indication>\n
+            </Conclusion>\n
+            <CertificateChain>\n                
+                <ChainItem Id=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\">\n                    
+                    <Source>SIGNATURE</Source>\n
+                </ChainItem>\n
+            </CertificateChain>\n
+        </ISC>\n
+        <VCI Title=\"Validation Context Initialization\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_VCI_ISPK\">Is the signature policy known?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>PASSED</Indication>\n
+            </Conclusion>\n
+        </VCI>\n
+        <XCV Title=\"X509 Certificate Validation\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_XCV_CCCBB\">Can the certificate chain be built till a trust anchor?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Error>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>INDETERMINATE</Indication>\n
+                <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+                <Errors Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Errors>\n
+            </Conclusion>\n
+        </XCV>\n
+        <CV Title=\"Cryptographic Verification\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_CV_IRDOF\">Has the reference data object been found?</Name>\n
+                <Status>OK</Status>\n
+                <AdditionalInfo>Reference : MESSAGE_DIGEST</AdditionalInfo>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_CV_IRDOI\">Is the reference data object intact?</Name>\n
+                <Status>OK</Status>\n
+                <AdditionalInfo>Reference : MESSAGE_DIGEST</AdditionalInfo>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_CV_ISI\">Is the signature intact?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>PASSED</Indication>\n
+            </Conclusion>\n
+        </CV>\n
+        <SAV Title=\"Signature Acceptance Validation\">\n            
+            <Constraint>\n                
+                <Name Key=\"BBB_SAV_ISSV\">Is the structure of the signature valid?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_ICS_ISASCP\">Is the signed attribute: 'signing-certificate' present?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_ICS_ISASCPU\">Is the signed attribute: 'signing-certificate' present only once?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_SAV_DSCACRCC\">Does the 'Signing Certificate' attribute contain references only to the certificate chain?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_SAV_ISQPSTP\">Is the signed qualifying property: 'signing-time' present?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"BBB_SAV_ISQPMDOSPP\">Is the signed qualifying property: 'message-digest' or 'SignedProperties' present?</Name>\n
+                <Status>OK</Status>\n
+            </Constraint>\n
+            <Constraint>\n                
+                <Name Key=\"ACCM\">Are cryptographic constraints met for the signature creation?</Name>\n
+                <Status>NOT OK</Status>\n
+                <Error Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Error>\n
+                <AdditionalInfo>The algorithm SHA1 is no longer considered reliable for signature creation! for the token at the validation time : 2023-03-09 11:29</AdditionalInfo>\n
+            </Constraint>\n
+            <Conclusion>\n                
+                <Indication>INDETERMINATE</Indication>\n
+                <SubIndication>CRYPTO_CONSTRAINTS_FAILURE_NO_POE</SubIndication>\n
+                <Errors Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Errors>\n
+            </Conclusion>\n
+            <CryptographicValidation secure=\"false\">\n                
+                <Algorithm>\n                    
+                    <Name>RSA with SHA1</Name>\n
+                    <Uri>http://www.w3.org/2000/09/xmldsig#rsa-sha1</Uri>\n
+                    <KeyLength>2048</KeyLength>\n
+                </Algorithm>\n
+                <NotAfter>2009-01-01T00:00:00Z</NotAfter>\n
+                <ValidationTime>2023-03-09T11:29:38Z</ValidationTime>\n
+                <ConcernedMaterial>SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459</ConcernedMaterial>\n
+            </CryptographicValidation>\n
+        </SAV>\n
+        <CertificateChain>\n            
+            <ChainItem Id=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\">\n                
+                <Source>SIGNATURE</Source>\n
+            </ChainItem>\n
+        </CertificateChain>\n
+        <Conclusion>\n            
+            <Indication>INDETERMINATE</Indication>\n
+            <SubIndication>CRYPTO_CONSTRAINTS_FAILURE_NO_POE</SubIndication>\n
+            <Errors Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Errors>\n
+            <Errors Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Errors>\n
+        </Conclusion>\n
+    </BasicBuildingBlocks>\n
+</DetailedReport>\n",
+  "xmlSimpleReport" : "
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n
+<SimpleReport ValidationTime=\"2023-03-09T11:29:38Z\" xmlns=\"http://dss.esig.europa.eu/validation/simple-report\">\n    
+    <ValidationPolicy>\n        
+        <PolicyName>QES AdESQC TL based</PolicyName>\n
+        <PolicyDescription>Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\n\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t</PolicyDescription>\n
+    </ValidationPolicy>\n
+    <DocumentName>Barid eSign - CertQ 1.pdf</DocumentName>\n
+    <ValidSignaturesCount>0</ValidSignaturesCount>\n
+    <SignaturesCount>1</SignaturesCount>\n
+    <Signature SignatureFormat=\"PDF-NOT-ETSI\" Id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\">\n        
+        <CertificateChain>\n            
+            <Certificate>\n                
+                <id>CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843</id>\n
+                <qualifiedName>EL BAHHARI Abdessamad</qualifiedName>\n
+            </Certificate>\n
+        </CertificateChain>\n
+        <Indication>INDETERMINATE</Indication>\n
+        <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+        <AdESValidationDetails>\n            
+            <Error Key=\"BBB_XCV_CCCBB_SIG_ANS\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Error>\n
+            <Error Key=\"ASCCM_AR_ANS_ANR\">The algorithm SHA1 is no longer considered reliable for signature creation!</Error>\n
+        </AdESValidationDetails>\n
+        <QualificationDetails>\n            
+            <Error Key=\"QUAL_CERT_TRUSTED_LIST_REACHED_ANS\">Unable to build a certificate chain up to a trusted list!</Error>\n
+            <Warning Key=\"QUAL_IS_ADES_IND\">The signature/seal is an INDETERMINATE AdES digital signature!</Warning>\n
+        </QualificationDetails>\n
+        <SigningTime>2020-08-27T14:59:15Z</SigningTime>\n
+        <BestSignatureTime>2023-03-09T11:29:38Z</BestSignatureTime>\n
+        <SignedBy>EL BAHHARI Abdessamad</SignedBy>\n
+        <SignatureLevel description=\"Not applicable\">N/A</SignatureLevel>\n
+        <SignatureScope Id=\"DOCUMENT_Full-PDF\" name=\"Full PDF\" scope=\"FULL\">The document ByteRange : [0, 3785, 20171, 159363]</SignatureScope>\n
+    </Signature>\n
+</SimpleReport>\n",
+  "simpleReport" : {
+    "jaxbModel" : {
+      "ValidationPolicy" : {
+        "PolicyName" : "QES AdESQC TL based",
+        "PolicyDescription" : "Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\n\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t"
+      },
+      "DocumentName" : "Barid eSign - CertQ 1.pdf",
+      "ValidSignaturesCount" : 0,
+      "SignaturesCount" : 1,
+      "ContainerType" : null,
+      "signatureOrTimestamp" : [ {
+        "Signature" : {
+          "SigningTime" : "2020-08-27T14:59:15Z",
+          "BestSignatureTime" : "2023-03-09T11:29:38Z",
+          "SignedBy" : "EL BAHHARI Abdessamad",
+          "SignatureLevel" : {
+            "value" : "N/A",
+            "description" : "Not applicable"
+          },
+          "SignatureScope" : [ {
+            "value" : "The document ByteRange : [0, 3785, 20171, 159363]",
+            "Id" : "DOCUMENT_Full-PDF",
+            "name" : "Full PDF",
+            "scope" : "FULL"
+          } ],
+          "Timestamps" : null,
+          "Filename" : null,
+          "CertificateChain" : {
+            "Certificate" : [ {
+              "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+              "qualifiedName" : "EL BAHHARI Abdessamad"
+            } ]
+          },
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "AdESValidationDetails" : {
+            "Error" : [ {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            }, {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            } ],
+            "Warning" : [ ],
+            "Info" : [ ]
+          },
+          "QualificationDetails" : {
+            "Error" : [ {
+              "value" : "Unable to build a certificate chain up to a trusted list!",
+              "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+            } ],
+            "Warning" : [ {
+              "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+              "Key" : "QUAL_IS_ADES_IND"
+            } ],
+            "Info" : [ ]
+          },
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+          "CounterSignature" : null,
+          "ParentId" : null,
+          "SignatureFormat" : "PDF-NOT-ETSI",
+          "ExtensionPeriodMin" : null,
+          "ExtensionPeriodMax" : null
+        }
+      } ],
+      "Semantic" : null,
+      "ValidationTime" : "2023-03-09T11:29:38Z"
+    },
+    "timestampIdList" : [ ],
+    "firstSignatureId" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+    "signatureIdList" : [ "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459" ],
+    "validationTime" : 1678361378311,
+    "documentFilename" : "Barid eSign - CertQ 1.pdf",
+    "firstTimestampId" : null,
+    "signaturesCount" : 1,
+    "validSignaturesCount" : 0
+  },
+  "xmlValidationReport" : "
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n
+<ValidationReport xmlns=\"http://uri.etsi.org/19102/v1.2.1#\" xmlns:ns2=\"http://uri.etsi.org/02231/v2#\" xmlns:ns4=\"http://uri.etsi.org/01903/v1.3.2#\" xmlns:ns3=\"http://www.w3.org/2000/09/xmldsig#\">\n    
+    <SignatureValidationReport>\n        
+        <SignatureIdentifier id=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\">\n            
+            <DigestAlgAndValue>\n                
+                <ns3:DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/>\n
+                <ns3:DigestValue>j3CEH84ccldDX5XQTMa4mKTRngw=</ns3:DigestValue>\n
+            </DigestAlgAndValue>\n
+            <ns3:SignatureValue>Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==</ns3:SignatureValue>\n
+            <HashOnly>false</HashOnly>\n
+            <DocHashOnly>false</DocHashOnly>\n
+        </SignatureIdentifier>\n
+        <ValidationConstraintsEvaluationReport>\n            
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:formatChecking</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:identificationOfTheSigningCertificate</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:validationContextInitialization</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:cryptographicVerification</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:signatureAcceptanceValidation</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>\n
+                    <SubIndication>urn:etsi:019102:subindication:CRYPTO_CONSTRAINTS_FAILURE_NO_POE</SubIndication>\n
+                    <AssociatedValidationReportData>\n                        
+                        <AdditionalValidationReportData>\n                            
+                            <ReportData>\n                                
+                                <Type>urn:cef:dss:message:error</Type>\n
+                                <Value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">The algorithm SHA1 is no longer considered reliable for signature creation!</Value>\n
+                            </ReportData>\n
+                        </AdditionalValidationReportData>\n
+                    </AssociatedValidationReportData>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:x509CertificateValidation</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>\n
+                </ConstraintStatus>\n
+                <ValidationStatus>\n                    
+                    <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>\n
+                    <SubIndication>urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+                    <AssociatedValidationReportData>\n                        
+                        <AdditionalValidationReportData>\n                            
+                            <ReportData>\n                                
+                                <Type>urn:cef:dss:message:error</Type>\n
+                                <Value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Value>\n
+                            </ReportData>\n
+                        </AdditionalValidationReportData>\n
+                    </AssociatedValidationReportData>\n
+                </ValidationStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:pastSignatureValidation</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>\n
+                </ConstraintStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:pastCertificateValidation</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>\n
+                </ConstraintStatus>\n
+            </ValidationConstraint>\n
+            <ValidationConstraint>\n                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:validationTimeSliding</ValidationConstraintIdentifier>\n
+                <ConstraintStatus>\n                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>\n
+                </ConstraintStatus>\n
+            </ValidationConstraint>\n
+        </ValidationConstraintsEvaluationReport>\n
+        <ValidationTimeInfo>\n            
+            <ValidationTime>2023-03-09T11:29:38Z</ValidationTime>\n
+            <BestSignatureTime>\n                
+                <POETime>2023-03-09T11:29:38Z</POETime>\n
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>\n
+            </BestSignatureTime>\n
+        </ValidationTimeInfo>\n
+        <SignersDocument>\n            
+            <DigestAlgAndValue>\n                
+                <ns3:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"/>\n
+                <ns3:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</ns3:DigestValue>\n
+            </DigestAlgAndValue>\n
+            <SignersDocumentRepresentation VOReference=\"DOCUMENT_Full-PDF\"/>\n
+        </SignersDocument>\n
+        <SignatureAttributes>\n            
+            <SigningTime Signed=\"true\">\n                
+                <Time>2020-08-27T14:59:15Z</Time>\n
+            </SigningTime>\n
+            <SigningCertificate Signed=\"true\">\n                
+                <AttributeObject VOReference=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\"/>\n
+            </SigningCertificate>\n
+            <DataObjectFormat Signed=\"true\">\n                
+                <ContentType>1.2.840.113549.1.7.1</ContentType>\n
+            </DataObjectFormat>\n
+            <MessageDigest Signed=\"true\">\n                
+                <Digest>1ieave1O2f05nR6S6xDu8BMDoTc=</Digest>\n
+            </MessageDigest>\n
+            <SubFilter>\n                
+                <SubFilterElement>ETSI.CAdES.detached</SubFilterElement>\n
+            </SubFilter>\n
+            <ByteRange>0 3785 20171 159363</ByteRange>\n
+            <Filter>\n                
+                <Filter>Adobe.PPKLite</Filter>\n
+            </Filter>\n
+        </SignatureAttributes>\n
+        <SignerInformation>\n            
+            <SignerCertificate VOReference=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\"/>\n
+            <Signer>EL BAHHARI Abdessamad</Signer>\n
+        </SignerInformation>\n
+        <SignatureQuality>\n            
+            <SignatureQualityInformation>urn:cef:dss:signatureQualification:notApplicable</SignatureQualityInformation>\n
+        </SignatureQuality>\n
+        <SignatureValidationProcess>\n            
+            <SignatureValidationProcessID>urn:etsi:019102:validationprocess:LTA</SignatureValidationProcessID>\n
+        </SignatureValidationProcess>\n
+        <SignatureValidationStatus>\n            
+            <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>\n
+            <SubIndication>urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND</SubIndication>\n
+            <AssociatedValidationReportData>\n                
+                <CertificateChain>\n                    
+                    <SigningCertificate VOReference=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\"/>\n
+                </CertificateChain>\n
+                <CryptoInformation>\n                    
+                    <ValidationObjectId VOReference=\"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459\"/>\n
+                    <Algorithm>http://www.w3.org/2000/09/xmldsig#rsa-sha1</Algorithm>\n
+                    <SecureAlgorithm>false</SecureAlgorithm>\n
+                    <NotAfter>2009-01-01T00:00:00Z</NotAfter>\n
+                </CryptoInformation>\n
+                <AdditionalValidationReportData>\n                    
+                    <ReportData>\n                        
+                        <Type>urn:cef:dss:message:error</Type>\n
+                        <Value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Value>\n
+                    </ReportData>\n
+                    <ReportData>\n                        
+                        <Type>urn:cef:dss:message:error</Type>\n
+                        <Value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">The algorithm SHA1 is no longer considered reliable for signature creation!</Value>\n
+                    </ReportData>\n
+                </AdditionalValidationReportData>\n
+            </AssociatedValidationReportData>\n
+        </SignatureValidationStatus>\n
+    </SignatureValidationReport>\n
+    <SignatureValidationObjects>\n        
+        <ValidationObject id=\"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843\">\n            
+            <ObjectType>urn:etsi:019102:validationObject:certificate</ObjectType>\n
+            <ValidationObjectRepresentation>\n                
+                <DigestAlgAndValue>\n                    
+                    <ns3:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"/>\n
+                    <ns3:DigestValue>vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=</ns3:DigestValue>\n
+                </DigestAlgAndValue>\n
+            </ValidationObjectRepresentation>\n
+            <POE>\n                
+                <POETime>2023-03-09T11:29:38Z</POETime>\n
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>\n
+            </POE>\n
+        </ValidationObject>\n
+        <ValidationObject id=\"DOCUMENT_Full-PDF\">\n            
+            <ObjectType>urn:etsi:019102:validationObject:signedData</ObjectType>\n
+            <ValidationObjectRepresentation>\n                
+                <DigestAlgAndValue>\n                    
+                    <ns3:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"/>\n
+                    <ns3:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</ns3:DigestValue>\n
+                </DigestAlgAndValue>\n
+            </ValidationObjectRepresentation>\n
+            <POE>\n                
+                <POETime>2023-03-09T11:29:38Z</POETime>\n
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>\n
+            </POE>\n
+        </ValidationObject>\n
+    </SignatureValidationObjects>\n
+</ValidationReport>\n",
+  "simpleReportJaxb" : {
+    "ValidationPolicy" : {
+      "PolicyName" : "QES AdESQC TL based",
+      "PolicyDescription" : "Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\n\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t"
+    },
+    "DocumentName" : "Barid eSign - CertQ 1.pdf",
+    "ValidSignaturesCount" : 0,
+    "SignaturesCount" : 1,
+    "ContainerType" : null,
+    "signatureOrTimestamp" : [ {
+      "Signature" : {
+        "SigningTime" : "2020-08-27T14:59:15Z",
+        "BestSignatureTime" : "2023-03-09T11:29:38Z",
+        "SignedBy" : "EL BAHHARI Abdessamad",
+        "SignatureLevel" : {
+          "value" : "N/A",
+          "description" : "Not applicable"
+        },
+        "SignatureScope" : [ {
+          "value" : "The document ByteRange : [0, 3785, 20171, 159363]",
+          "Id" : "DOCUMENT_Full-PDF",
+          "name" : "Full PDF",
+          "scope" : "FULL"
+        } ],
+        "Timestamps" : null,
+        "Filename" : null,
+        "CertificateChain" : {
+          "Certificate" : [ {
+            "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+            "qualifiedName" : "EL BAHHARI Abdessamad"
+          } ]
+        },
+        "Indication" : "INDETERMINATE",
+        "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+        "AdESValidationDetails" : {
+          "Error" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          }, {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warning" : [ ],
+          "Info" : [ ]
+        },
+        "QualificationDetails" : {
+          "Error" : [ {
+            "value" : "Unable to build a certificate chain up to a trusted list!",
+            "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+          } ],
+          "Warning" : [ {
+            "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+            "Key" : "QUAL_IS_ADES_IND"
+          } ],
+          "Info" : [ ]
+        },
+        "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+        "CounterSignature" : null,
+        "ParentId" : null,
+        "SignatureFormat" : "PDF-NOT-ETSI",
+        "ExtensionPeriodMin" : null,
+        "ExtensionPeriodMax" : null
+      }
+    } ],
+    "Semantic" : null,
+    "ValidationTime" : "2023-03-09T11:29:38Z"
+  },
+  "etsiValidationReportJaxb" : {
+    "SignatureValidationReport" : [ {
+      "SignatureIdentifier" : {
+        "id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+        "DigestAlgAndValue" : {
+          "DigestMethod" : {
+            "content" : null,
+            "Algorithm" : "http://www.w3.org/2000/09/xmldsig#sha1"
+          },
+          "DigestValue" : "j3CEH84ccldDX5XQTMa4mKTRngw="
+        },
+        "SignatureValue" : {
+          "Id" : null,
+          "value" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA=="
+        },
+        "HashOnly" : false,
+        "DocHashOnly" : false,
+        "DAIdentifier" : null,
+        "any" : null
+      },
+      "ValidationConstraintsEvaluationReport" : {
+        "SignatureValidationPolicy" : null,
+        "ValidationConstraint" : [ {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:formatChecking",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:passed",
+            "SubIndication" : null,
+            "AssociatedValidationReportData" : null
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:identificationOfTheSigningCertificate",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:passed",
+            "SubIndication" : null,
+            "AssociatedValidationReportData" : null
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:validationContextInitialization",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:passed",
+            "SubIndication" : null,
+            "AssociatedValidationReportData" : null
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:cryptographicVerification",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:passed",
+            "SubIndication" : null,
+            "AssociatedValidationReportData" : null
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:signatureAcceptanceValidation",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:indeterminate",
+            "SubIndication" : [ "urn:etsi:019102:subindication:CRYPTO_CONSTRAINTS_FAILURE_NO_POE" ],
+            "AssociatedValidationReportData" : [ {
+              "TrustAnchor" : null,
+              "CertificateChain" : null,
+              "RelatedValidationObject" : null,
+              "RevocationStatusInformation" : null,
+              "CryptoInformation" : null,
+              "AdditionalValidationReportData" : {
+                "ReportData" : [ {
+                  "Type" : "urn:cef:dss:message:error",
+                  "Value" : "The algorithm SHA1 is no longer considered reliable for signature creation!"
+                } ]
+              }
+            } ]
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:x509CertificateValidation",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:applied",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : {
+            "MainIndication" : "urn:etsi:019102:mainindication:indeterminate",
+            "SubIndication" : [ "urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND" ],
+            "AssociatedValidationReportData" : [ {
+              "TrustAnchor" : null,
+              "CertificateChain" : null,
+              "RelatedValidationObject" : null,
+              "RevocationStatusInformation" : null,
+              "CryptoInformation" : null,
+              "AdditionalValidationReportData" : {
+                "ReportData" : [ {
+                  "Type" : "urn:cef:dss:message:error",
+                  "Value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor."
+                } ]
+              }
+            } ]
+          },
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:pastSignatureValidation",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:disabled",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : null,
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:pastCertificateValidation",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:disabled",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : null,
+          "Indications" : null
+        }, {
+          "ValidationConstraintIdentifier" : "urn:cef:dss:bbb:validationTimeSliding",
+          "ValidationConstraintParameter" : null,
+          "ConstraintStatus" : {
+            "Status" : "urn:etsi:019102:constraintStatus:disabled",
+            "OverriddenBy" : null
+          },
+          "ValidationStatus" : null,
+          "Indications" : null
+        } ]
+      },
+      "ValidationTimeInfo" : {
+        "ValidationTime" : "2023-03-09T11:29:38Z",
+        "BestSignatureTime" : {
+          "POETime" : "2023-03-09T11:29:38Z",
+          "TypeOfProof" : "urn:etsi:019102:poetype:validation",
+          "POEObject" : null
+        }
+      },
+      "SignersDocument" : {
+        "content" : [ {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}DigestAlgAndValue",
+            "declaredType" : "eu.europa.esig.xades.jaxb.xades132.DigestAlgAndValueType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignersDocumentType",
+            "value" : {
+              "DigestMethod" : {
+                "content" : null,
+                "Algorithm" : "http://www.w3.org/2001/04/xmlenc#sha256"
+              },
+              "DigestValue" : "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}SignersDocumentRepresentation",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.VOReferenceType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignersDocumentType",
+            "value" : {
+              "any" : null,
+              "VOReference" : [ "DOCUMENT_Full-PDF" ]
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        } ]
+      },
+      "SignatureAttributes" : {
+        "signingTimeOrSigningCertificateOrDataObjectFormat" : [ {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}SigningTime",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SASigningTimeType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "Time" : "2020-08-27T14:59:15Z",
+              "AttributeObject" : null,
+              "Signed" : true
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}SigningCertificate",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SACertIDListType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "CertID" : null,
+              "AttributeObject" : [ {
+                "any" : null,
+                "VOReference" : [ "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843" ]
+              } ],
+              "Signed" : true
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}DataObjectFormat",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SADataObjectFormatType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "ContentType" : "1.2.840.113549.1.7.1",
+              "MimeType" : null,
+              "AttributeObject" : null,
+              "Signed" : true
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}MessageDigest",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SAMessageDigestType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "Digest" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+              "AttributeObject" : null,
+              "Signed" : true
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}SubFilter",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SASubFilterType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "SubFilterElement" : "ETSI.CAdES.detached",
+              "AttributeObject" : null,
+              "Signed" : null
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}ByteRange",
+            "declaredType" : "java.util.List",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : [ 0, 3785, 20171, 159363 ],
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : true
+          }
+        }, {
+          "JAXBElement" : {
+            "name" : "{http://uri.etsi.org/19102/v1.2.1#}Filter",
+            "declaredType" : "eu.europa.esig.validationreport.jaxb.SAFilterType",
+            "scope" : "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+            "value" : {
+              "Filter" : "Adobe.PPKLite"
+            },
+            "nil" : false,
+            "globalScope" : false,
+            "typeSubstituted" : false
+          }
+        } ]
+      },
+      "SignerInformation" : {
+        "SignerCertificate" : {
+          "any" : null,
+          "VOReference" : [ "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843" ]
+        },
+        "Signer" : "EL BAHHARI Abdessamad",
+        "any" : null,
+        "Pseudonym" : null
+      },
+      "SignatureQuality" : {
+        "SignatureQualityInformation" : [ "urn:cef:dss:signatureQualification:notApplicable" ]
+      },
+      "SignatureValidationProcess" : {
+        "SignatureValidationProcessID" : "urn:etsi:019102:validationprocess:LTA",
+        "SignatureValidationServicePolicy" : null,
+        "SignatureValidationPracticeStatement" : null,
+        "any" : null
+      },
+      "SignatureValidationStatus" : {
+        "MainIndication" : "urn:etsi:019102:mainindication:indeterminate",
+        "SubIndication" : [ "urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND" ],
+        "AssociatedValidationReportData" : [ {
+          "TrustAnchor" : null,
+          "CertificateChain" : {
+            "SigningCertificate" : {
+              "any" : null,
+              "VOReference" : [ "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843" ]
+            },
+            "IntermediateCertificate" : null,
+            "TrustAnchor" : null,
+            "any" : null
+          },
+          "RelatedValidationObject" : null,
+          "RevocationStatusInformation" : null,
+          "CryptoInformation" : {
+            "ValidationObjectId" : {
+              "any" : null,
+              "VOReference" : [ "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459" ]
+            },
+            "Algorithm" : "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+            "AlgorithmParameters" : null,
+            "SecureAlgorithm" : false,
+            "NotAfter" : "2009-01-01T00:00:00Z",
+            "any" : null
+          },
+          "AdditionalValidationReportData" : {
+            "ReportData" : [ {
+              "Type" : "urn:cef:dss:message:error",
+              "Value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor."
+            }, {
+              "Type" : "urn:cef:dss:message:error",
+              "Value" : "The algorithm SHA1 is no longer considered reliable for signature creation!"
+            } ]
+          }
+        } ]
+      },
+      "any" : null
+    } ],
+    "SignatureValidationObjects" : {
+      "ValidationObject" : [ {
+        "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "ObjectType" : "urn:etsi:019102:validationObject:certificate",
+        "ValidationObjectRepresentation" : {
+          "direct" : null,
+          "base64" : null,
+          "DigestAlgAndValue" : {
+            "DigestMethod" : {
+              "content" : null,
+              "Algorithm" : "http://www.w3.org/2001/04/xmlenc#sha256"
+            },
+            "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg="
+          },
+          "URI" : null
+        },
+        "POE" : {
+          "POETime" : "2023-03-09T11:29:38Z",
+          "TypeOfProof" : "urn:etsi:019102:poetype:validation",
+          "POEObject" : null
+        },
+        "POEProvisioning" : null,
+        "ValidationReport" : null
+      }, {
+        "id" : "DOCUMENT_Full-PDF",
+        "ObjectType" : "urn:etsi:019102:validationObject:signedData",
+        "ValidationObjectRepresentation" : {
+          "direct" : null,
+          "base64" : null,
+          "DigestAlgAndValue" : {
+            "DigestMethod" : {
+              "content" : null,
+              "Algorithm" : "http://www.w3.org/2001/04/xmlenc#sha256"
+            },
+            "DigestValue" : "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          },
+          "URI" : null
+        },
+        "POE" : {
+          "POETime" : "2023-03-09T11:29:38Z",
+          "TypeOfProof" : "urn:etsi:019102:poetype:validation",
+          "POEObject" : null
+        },
+        "POEProvisioning" : null,
+        "ValidationReport" : null
+      } ]
+    },
+    "SignatureValidator" : null,
+    "Signature" : null
+  },
+  "detailedReport" : {
+    "certificates" : [ ],
+    "signatureIds" : [ "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459" ],
+    "revocationIds" : [ ],
+    "timestampIds" : [ ],
+    "jaxbmodel" : {
+      "signatureOrTimestampOrCertificate" : [ {
+        "Signature" : {
+          "ValidationProcessBasicSignature" : {
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is the result of the 'Format Checking' building block conclusive?",
+                "Key" : "BSV_IFCRC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the result of the 'Identification of Signing Certificate' building block conclusive?",
+                "Key" : "BSV_IISCRC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the result of the 'Validation Context Initialization' building block conclusive?",
+                "Key" : "BSV_IVCIRC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the result of the 'X.509 Certificate Validation' building block conclusive?",
+                "Key" : "BSV_IXCVRC"
+              },
+              "Status" : "WARNING",
+              "Error" : null,
+              "Warning" : {
+                "value" : "The result of the 'X.509 Certificate Validation' building block is not conclusive!",
+                "Key" : "BSV_IXCVRC_ANS"
+              },
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the signing certificate not revoked at validation time?",
+                "Key" : "BSV_ISCRAVTC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the validation time in the validity range of the signing certificate?",
+                "Key" : "BSV_IVTAVRSC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the result of the 'Cryptographic Verification' building block conclusive?",
+                "Key" : "BSV_ICVRC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV",
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the result of the Basic Validation Process conclusive?",
+                "Key" : "ADEST_ROBVPIIC"
+              },
+              "Status" : "NOT OK",
+              "Error" : {
+                "value" : "The result of the Basic validation process is not conclusive!",
+                "Key" : "ADEST_ROBVPIIC_ANS"
+              },
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : "Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication",
+              "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "INDETERMINATE",
+              "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+              "Errors" : [ {
+                "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+                "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+              }, {
+                "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+                "Key" : "ASCCM_AR_ANS_ANR"
+              } ],
+              "Warnings" : [ ],
+              "Infos" : [ ]
+            },
+            "Title" : "Validation Process for Basic Signatures",
+            "ProofOfExistence" : {
+              "Time" : "2023-03-09T11:29:38Z",
+              "TimestampId" : null
+            }
+          },
+          "Timestamp" : [ ],
+          "ValidationProcessLongTermData" : {
+            "CRS" : null,
+            "RFC" : null,
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is the result of the Basic Validation Process acceptable?",
+                "Key" : "LTV_ABSV"
+              },
+              "Status" : "NOT OK",
+              "Error" : {
+                "value" : "The result of the Basic validation process is not acceptable to continue the process!",
+                "Key" : "LTV_ABSV_ANS"
+              },
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "INDETERMINATE",
+              "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+              "Errors" : [ {
+                "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+                "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+              }, {
+                "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+                "Key" : "ASCCM_AR_ANS_ANR"
+              } ],
+              "Warnings" : [ ],
+              "Infos" : [ ]
+            },
+            "Title" : "Validation Process for Signatures with Time and Signatures with Long-Term Validation Data",
+            "ProofOfExistence" : {
+              "Time" : "2023-03-09T11:29:38Z",
+              "TimestampId" : null
+            }
+          },
+          "ValidationProcessArchivalData" : {
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is the result of the LTV validation process acceptable?",
+                "Key" : "ARCH_LTVV"
+              },
+              "Status" : "NOT OK",
+              "Error" : {
+                "value" : "The result of the LTV validation process is not acceptable to continue the process!",
+                "Key" : "ARCH_LTVV_ANS"
+              },
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "INDETERMINATE",
+              "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+              "Errors" : [ {
+                "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+                "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+              }, {
+                "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+                "Key" : "ASCCM_AR_ANS_ANR"
+              } ],
+              "Warnings" : [ ],
+              "Infos" : [ ]
+            },
+            "Title" : "Validation Process for Signatures with Archival Data",
+            "ProofOfExistence" : {
+              "Time" : "2023-03-09T11:29:38Z",
+              "TimestampId" : null
+            }
+          },
+          "ValidationSignatureQualification" : {
+            "ValidationCertificateQualification" : [ ],
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?",
+                "Key" : "QUAL_IS_ADES"
+              },
+              "Status" : "WARNING",
+              "Error" : null,
+              "Warning" : {
+                "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+                "Key" : "QUAL_IS_ADES_IND"
+              },
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Has a trusted list been reached for the certificate chain?",
+                "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED"
+              },
+              "Status" : "NOT OK",
+              "Error" : {
+                "value" : "Unable to build a certificate chain up to a trusted list!",
+                "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+              },
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "FAILED",
+              "SubIndication" : null,
+              "Errors" : [ {
+                "value" : "Unable to build a certificate chain up to a trusted list!",
+                "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+              } ],
+              "Warnings" : [ {
+                "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+                "Key" : "QUAL_IS_ADES_IND"
+              } ],
+              "Infos" : [ ]
+            },
+            "Title" : "Signature Qualification",
+            "SignatureQualification" : "N/A"
+          },
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+            "Errors" : null,
+            "Warnings" : null,
+            "Infos" : null
+          },
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+          "CounterSignature" : null
+        }
+      } ],
+      "BasicBuildingBlocks" : [ {
+        "FC" : {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Does the signature format correspond to an expected format?",
+              "Key" : "BBB_FC_IEFF"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signature identification not ambiguous?",
+              "Key" : "BBB_FC_ISD"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed references identification not ambiguous?",
+              "Key" : "BBB_FC_ISRIA"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is only one SignerInfo present?",
+              "Key" : "BBB_FC_IOSIP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Do signed and final revisions contain equal amount of pages?",
+              "Key" : "BBB_FC_DSFREAP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is no element overlapping detected in the PDF?",
+              "Key" : "BBB_FC_IAOD"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is there no visual difference between signed and final revisions in the PDF?",
+              "Key" : "BBB_FC_IVDBSFR"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the document contain none of the undefined object modifications?",
+              "Key" : "BBB_FC_DSCNUOM"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Format Checking"
+        },
+        "ISC" : {
+          "CertificateChain" : {
+            "ChainItem" : [ {
+              "Source" : "SIGNATURE",
+              "Id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+            } ]
+          },
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is there an identified candidate for the signing certificate?",
+              "Key" : "BBB_ICS_ISCI"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed attribute: 'cert-digest' of the certificate present?",
+              "Key" : "BBB_ICS_ISACDP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the certificate digest value match a digest value found in the certificate reference(s)?",
+              "Key" : "BBB_ICS_ICDVV"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Identification of the Signing Certificate"
+        },
+        "VCI" : {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the signature policy known?",
+              "Key" : "BBB_VCI_ISPK"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Validation Context Initialization"
+        },
+        "XCV" : {
+          "SubXCV" : [ ],
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Can the certificate chain be built till a trust anchor?",
+              "Key" : "BBB_XCV_CCCBB"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+            "Errors" : [ {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            } ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "X509 Certificate Validation"
+        },
+        "CV" : {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Has the reference data object been found?",
+              "Key" : "BBB_CV_IRDOF"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Reference : MESSAGE_DIGEST",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the reference data object intact?",
+              "Key" : "BBB_CV_IRDOI"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Reference : MESSAGE_DIGEST",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signature intact?",
+              "Key" : "BBB_CV_ISI"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Cryptographic Verification"
+        },
+        "SAV" : {
+          "CryptographicValidation" : {
+            "Algorithm" : {
+              "Name" : "RSA with SHA1",
+              "Uri" : "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+              "KeyLength" : "2048"
+            },
+            "NotAfter" : "2009-01-01T00:00:00Z",
+            "ValidationTime" : "2023-03-09T11:29:38Z",
+            "ConcernedMaterial" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+            "secure" : false
+          },
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the structure of the signature valid?",
+              "Key" : "BBB_SAV_ISSV"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed attribute: 'signing-certificate' present?",
+              "Key" : "BBB_ICS_ISASCP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed attribute: 'signing-certificate' present only once?",
+              "Key" : "BBB_ICS_ISASCPU"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the 'Signing Certificate' attribute contain references only to the certificate chain?",
+              "Key" : "BBB_SAV_DSCACRCC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed qualifying property: 'signing-time' present?",
+              "Key" : "BBB_SAV_ISQPSTP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signed qualifying property: 'message-digest' or 'SignedProperties' present?",
+              "Key" : "BBB_SAV_ISQPMDOSPP"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Are cryptographic constraints met for the signature creation?",
+              "Key" : "ACCM"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "The algorithm SHA1 is no longer considered reliable for signature creation! for the token at the validation time : 2023-03-09 11:29",
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+            "Errors" : [ {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            } ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Signature Acceptance Validation"
+        },
+        "PSV" : null,
+        "PSV_CRS" : null,
+        "PCV" : null,
+        "VTS" : null,
+        "CertificateChain" : {
+          "ChainItem" : [ {
+            "Source" : "SIGNATURE",
+            "Id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+          } ]
+        },
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+          "Errors" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          }, {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+        "Type" : "SIGNATURE"
+      } ],
+      "TLAnalysis" : [ ],
+      "Semantic" : null,
+      "ValidationTime" : "2023-03-09T11:29:38Z"
+    },
+    "firstSignatureId" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+    "signatures" : [ {
+      "ValidationProcessBasicSignature" : {
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the result of the 'Format Checking' building block conclusive?",
+            "Key" : "BSV_IFCRC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the result of the 'Identification of Signing Certificate' building block conclusive?",
+            "Key" : "BSV_IISCRC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the result of the 'Validation Context Initialization' building block conclusive?",
+            "Key" : "BSV_IVCIRC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the result of the 'X.509 Certificate Validation' building block conclusive?",
+            "Key" : "BSV_IXCVRC"
+          },
+          "Status" : "WARNING",
+          "Error" : null,
+          "Warning" : {
+            "value" : "The result of the 'X.509 Certificate Validation' building block is not conclusive!",
+            "Key" : "BSV_IXCVRC_ANS"
+          },
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signing certificate not revoked at validation time?",
+            "Key" : "BSV_ISCRAVTC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the validation time in the validity range of the signing certificate?",
+            "Key" : "BSV_IVTAVRSC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the result of the 'Cryptographic Verification' building block conclusive?",
+            "Key" : "BSV_ICVRC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the result of the Basic Validation Process conclusive?",
+            "Key" : "ADEST_ROBVPIIC"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The result of the Basic validation process is not conclusive!",
+            "Key" : "ADEST_ROBVPIIC_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication",
+          "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          }, {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Validation Process for Basic Signatures",
+        "ProofOfExistence" : {
+          "Time" : "2023-03-09T11:29:38Z",
+          "TimestampId" : null
+        }
+      },
+      "Timestamp" : [ ],
+      "ValidationProcessLongTermData" : {
+        "CRS" : null,
+        "RFC" : null,
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the result of the Basic Validation Process acceptable?",
+            "Key" : "LTV_ABSV"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The result of the Basic validation process is not acceptable to continue the process!",
+            "Key" : "LTV_ABSV_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          }, {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Validation Process for Signatures with Time and Signatures with Long-Term Validation Data",
+        "ProofOfExistence" : {
+          "Time" : "2023-03-09T11:29:38Z",
+          "TimestampId" : null
+        }
+      },
+      "ValidationProcessArchivalData" : {
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the result of the LTV validation process acceptable?",
+            "Key" : "ARCH_LTVV"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The result of the LTV validation process is not acceptable to continue the process!",
+            "Key" : "ARCH_LTVV_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          }, {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Validation Process for Signatures with Archival Data",
+        "ProofOfExistence" : {
+          "Time" : "2023-03-09T11:29:38Z",
+          "TimestampId" : null
+        }
+      },
+      "ValidationSignatureQualification" : {
+        "ValidationCertificateQualification" : [ ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?",
+            "Key" : "QUAL_IS_ADES"
+          },
+          "Status" : "WARNING",
+          "Error" : null,
+          "Warning" : {
+            "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+            "Key" : "QUAL_IS_ADES_IND"
+          },
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Has a trusted list been reached for the certificate chain?",
+            "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "Unable to build a certificate chain up to a trusted list!",
+            "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "FAILED",
+          "SubIndication" : null,
+          "Errors" : [ {
+            "value" : "Unable to build a certificate chain up to a trusted list!",
+            "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+          } ],
+          "Warnings" : [ {
+            "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+            "Key" : "QUAL_IS_ADES_IND"
+          } ],
+          "Infos" : [ ]
+        },
+        "Title" : "Signature Qualification",
+        "SignatureQualification" : "N/A"
+      },
+      "Conclusion" : {
+        "Indication" : "INDETERMINATE",
+        "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+        "Errors" : null,
+        "Warnings" : null,
+        "Infos" : null
+      },
+      "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+      "CounterSignature" : null
+    } ],
+    "basicBuildingBlocksNumber" : 1,
+    "independentTimestamps" : [ ]
+  },
+  "detailedReportJaxb" : {
+    "signatureOrTimestampOrCertificate" : [ {
+      "Signature" : {
+        "ValidationProcessBasicSignature" : {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the result of the 'Format Checking' building block conclusive?",
+              "Key" : "BSV_IFCRC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the result of the 'Identification of Signing Certificate' building block conclusive?",
+              "Key" : "BSV_IISCRC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the result of the 'Validation Context Initialization' building block conclusive?",
+              "Key" : "BSV_IVCIRC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the result of the 'X.509 Certificate Validation' building block conclusive?",
+              "Key" : "BSV_IXCVRC"
+            },
+            "Status" : "WARNING",
+            "Error" : null,
+            "Warning" : {
+              "value" : "The result of the 'X.509 Certificate Validation' building block is not conclusive!",
+              "Key" : "BSV_IXCVRC_ANS"
+            },
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the signing certificate not revoked at validation time?",
+              "Key" : "BSV_ISCRAVTC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the validation time in the validity range of the signing certificate?",
+              "Key" : "BSV_IVTAVRSC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the result of the 'Cryptographic Verification' building block conclusive?",
+              "Key" : "BSV_ICVRC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV",
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the result of the Basic Validation Process conclusive?",
+              "Key" : "ADEST_ROBVPIIC"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "The result of the Basic validation process is not conclusive!",
+              "Key" : "ADEST_ROBVPIIC_ANS"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication",
+            "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+            "Errors" : [ {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            }, {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            } ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Validation Process for Basic Signatures",
+          "ProofOfExistence" : {
+            "Time" : "2023-03-09T11:29:38Z",
+            "TimestampId" : null
+          }
+        },
+        "Timestamp" : [ ],
+        "ValidationProcessLongTermData" : {
+          "CRS" : null,
+          "RFC" : null,
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the result of the Basic Validation Process acceptable?",
+              "Key" : "LTV_ABSV"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "The result of the Basic validation process is not acceptable to continue the process!",
+              "Key" : "LTV_ABSV_ANS"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+            "Errors" : [ {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            }, {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            } ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Validation Process for Signatures with Time and Signatures with Long-Term Validation Data",
+          "ProofOfExistence" : {
+            "Time" : "2023-03-09T11:29:38Z",
+            "TimestampId" : null
+          }
+        },
+        "ValidationProcessArchivalData" : {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the result of the LTV validation process acceptable?",
+              "Key" : "ARCH_LTVV"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "The result of the LTV validation process is not acceptable to continue the process!",
+              "Key" : "ARCH_LTVV_ANS"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "INDETERMINATE",
+            "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+            "Errors" : [ {
+              "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+              "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+            }, {
+              "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+              "Key" : "ASCCM_AR_ANS_ANR"
+            } ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Validation Process for Signatures with Archival Data",
+          "ProofOfExistence" : {
+            "Time" : "2023-03-09T11:29:38Z",
+            "TimestampId" : null
+          }
+        },
+        "ValidationSignatureQualification" : {
+          "ValidationCertificateQualification" : [ ],
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?",
+              "Key" : "QUAL_IS_ADES"
+            },
+            "Status" : "WARNING",
+            "Error" : null,
+            "Warning" : {
+              "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+              "Key" : "QUAL_IS_ADES_IND"
+            },
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Has a trusted list been reached for the certificate chain?",
+              "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED"
+            },
+            "Status" : "NOT OK",
+            "Error" : {
+              "value" : "Unable to build a certificate chain up to a trusted list!",
+              "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+            },
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "FAILED",
+            "SubIndication" : null,
+            "Errors" : [ {
+              "value" : "Unable to build a certificate chain up to a trusted list!",
+              "Key" : "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+            } ],
+            "Warnings" : [ {
+              "value" : "The signature/seal is an INDETERMINATE AdES digital signature!",
+              "Key" : "QUAL_IS_ADES_IND"
+            } ],
+            "Infos" : [ ]
+          },
+          "Title" : "Signature Qualification",
+          "SignatureQualification" : "N/A"
+        },
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : null,
+          "Warnings" : null,
+          "Infos" : null
+        },
+        "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+        "CounterSignature" : null
+      }
+    } ],
+    "BasicBuildingBlocks" : [ {
+      "FC" : {
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Does the signature format correspond to an expected format?",
+            "Key" : "BBB_FC_IEFF"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signature identification not ambiguous?",
+            "Key" : "BBB_FC_ISD"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed references identification not ambiguous?",
+            "Key" : "BBB_FC_ISRIA"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is only one SignerInfo present?",
+            "Key" : "BBB_FC_IOSIP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Do signed and final revisions contain equal amount of pages?",
+            "Key" : "BBB_FC_DSFREAP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is no element overlapping detected in the PDF?",
+            "Key" : "BBB_FC_IAOD"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is there no visual difference between signed and final revisions in the PDF?",
+            "Key" : "BBB_FC_IVDBSFR"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Does the document contain none of the undefined object modifications?",
+            "Key" : "BBB_FC_DSCNUOM"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Format Checking"
+      },
+      "ISC" : {
+        "CertificateChain" : {
+          "ChainItem" : [ {
+            "Source" : "SIGNATURE",
+            "Id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+          } ]
+        },
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is there an identified candidate for the signing certificate?",
+            "Key" : "BBB_ICS_ISCI"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed attribute: 'cert-digest' of the certificate present?",
+            "Key" : "BBB_ICS_ISACDP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Does the certificate digest value match a digest value found in the certificate reference(s)?",
+            "Key" : "BBB_ICS_ICDVV"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Identification of the Signing Certificate"
+      },
+      "VCI" : {
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the signature policy known?",
+            "Key" : "BBB_VCI_ISPK"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Validation Context Initialization"
+      },
+      "XCV" : {
+        "SubXCV" : [ ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Can the certificate chain be built till a trust anchor?",
+            "Key" : "BBB_XCV_CCCBB"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : [ {
+            "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "X509 Certificate Validation"
+      },
+      "CV" : {
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Has the reference data object been found?",
+            "Key" : "BBB_CV_IRDOF"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "Reference : MESSAGE_DIGEST",
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the reference data object intact?",
+            "Key" : "BBB_CV_IRDOI"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "Reference : MESSAGE_DIGEST",
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signature intact?",
+            "Key" : "BBB_CV_ISI"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Cryptographic Verification"
+      },
+      "SAV" : {
+        "CryptographicValidation" : {
+          "Algorithm" : {
+            "Name" : "RSA with SHA1",
+            "Uri" : "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+            "KeyLength" : "2048"
+          },
+          "NotAfter" : "2009-01-01T00:00:00Z",
+          "ValidationTime" : "2023-03-09T11:29:38Z",
+          "ConcernedMaterial" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+          "secure" : false
+        },
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the structure of the signature valid?",
+            "Key" : "BBB_SAV_ISSV"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed attribute: 'signing-certificate' present?",
+            "Key" : "BBB_ICS_ISASCP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed attribute: 'signing-certificate' present only once?",
+            "Key" : "BBB_ICS_ISASCPU"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Does the 'Signing Certificate' attribute contain references only to the certificate chain?",
+            "Key" : "BBB_SAV_DSCACRCC"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed qualifying property: 'signing-time' present?",
+            "Key" : "BBB_SAV_ISQPSTP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the signed qualifying property: 'message-digest' or 'SignedProperties' present?",
+            "Key" : "BBB_SAV_ISQPMDOSPP"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Are cryptographic constraints met for the signature creation?",
+            "Key" : "ACCM"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "The algorithm SHA1 is no longer considered reliable for signature creation! for the token at the validation time : 2023-03-09 11:29",
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+          "Errors" : [ {
+            "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+            "Key" : "ASCCM_AR_ANS_ANR"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "Signature Acceptance Validation"
+      },
+      "PSV" : null,
+      "PSV_CRS" : null,
+      "PCV" : null,
+      "VTS" : null,
+      "CertificateChain" : {
+        "ChainItem" : [ {
+          "Source" : "SIGNATURE",
+          "Id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+        } ]
+      },
+      "Conclusion" : {
+        "Indication" : "INDETERMINATE",
+        "SubIndication" : "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+        "Errors" : [ {
+          "value" : "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+          "Key" : "BBB_XCV_CCCBB_SIG_ANS"
+        }, {
+          "value" : "The algorithm SHA1 is no longer considered reliable for signature creation!",
+          "Key" : "ASCCM_AR_ANS_ANR"
+        } ],
+        "Warnings" : [ ],
+        "Infos" : [ ]
+      },
+      "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+      "Type" : "SIGNATURE"
+    } ],
+    "TLAnalysis" : [ ],
+    "Semantic" : null,
+    "ValidationTime" : "2023-03-09T11:29:38Z"
+  },
+  "diagnosticDataJaxb" : {
+    "DocumentName" : "Barid eSign - CertQ 1.pdf",
+    "ValidationDate" : "2023-03-09T11:29:38Z",
+    "ContainerInfo" : null,
+    "Signature" : [ {
+      "Id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+      "DAIdentifier" : null,
+      "SignatureFilename" : "Barid eSign - CertQ 1.pdf",
+      "ErrorMessage" : null,
+      "ClaimedSigningTime" : "2020-08-27T14:59:15Z",
+      "SignatureFormat" : "PDF-NOT-ETSI",
+      "StructuralValidation" : {
+        "Message" : [ ],
+        "valid" : true
+      },
+      "DigestMatcher" : [ {
+        "DataFound" : true,
+        "DataIntact" : true,
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+        "match" : null,
+        "type" : "MESSAGE_DIGEST",
+        "name" : null,
+        "duplicated" : null
+      } ],
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "2048",
+        "DigestAlgoUsedToSignThisToken" : "SHA1",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : {
+        "PublicKey" : null,
+        "Certificate" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+      },
+      "ChainItem" : [ {
+        "Certificate" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+      } ],
+      "ContentType" : "1.2.840.113549.1.7.1",
+      "MimeType" : null,
+      "ContentIdentifier" : null,
+      "ContentHints" : null,
+      "SignatureProductionPlace" : null,
+      "CommitmentTypeIndication" : [ ],
+      "SignerRole" : [ ],
+      "Policy" : null,
+      "SignaturePolicyStore" : null,
+      "SignerInfo" : [ {
+        "IssuerName" : "CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA",
+        "SerialNumber" : 176582600188646856643663170787160952277423105426,
+        "Ski" : null,
+        "Current" : true
+      } ],
+      "PDFRevision" : {
+        "SignatureField" : [ {
+          "SigFieldLock" : null,
+          "name" : "Signature1"
+        } ],
+        "PDFSignatureDictionary" : {
+          "SignerName" : null,
+          "Type" : "Sig",
+          "Filter" : "Adobe.PPKLite",
+          "SubFilter" : "ETSI.CAdES.detached",
+          "ContactInfo" : null,
+          "Location" : null,
+          "Reason" : null,
+          "SignatureByteRange" : [ 0, 3785, 20171, 159363 ],
+          "DocMDP" : null,
+          "FieldMDP" : null
+        },
+        "ModificationDetection" : null
+      },
+      "SignerDocumentRepresentations" : {
+        "HashOnly" : false,
+        "DocHashOnly" : false
+      },
+      "FoundCertificates" : {
+        "RelatedCertificate" : [ {
+          "Origin" : [ "SIGNED_DATA" ],
+          "CertificateRef" : [ {
+            "Origin" : "SIGNING_CERTIFICATE",
+            "IssuerSerial" : null,
+            "DigestAlgoAndValue" : {
+              "DigestMethod" : "SHA1",
+              "DigestValue" : "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+              "match" : true
+            },
+            "SerialInfo" : null
+          } ],
+          "Certificate" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+        } ],
+        "OrphanCertificate" : [ ]
+      },
+      "FoundRevocations" : {
+        "RelatedRevocation" : [ ],
+        "OrphanRevocation" : [ ]
+      },
+      "FoundTimestamp" : [ ],
+      "SignatureScope" : [ {
+        "Scope" : "FULL",
+        "Name" : "Full PDF",
+        "Description" : "The document ByteRange : [0, 3785, 20171, 159363]",
+        "Transformation" : null,
+        "SignerData" : "DOCUMENT_Full-PDF"
+      } ],
+      "SignatureDigestReference" : {
+        "CanonicalizationMethod" : null,
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0="
+      },
+      "DataToBeSignedRepresentation" : {
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "j3CEH84ccldDX5XQTMa4mKTRngw=",
+        "match" : null
+      },
+      "SignatureValue" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+      "CounterSignature" : null,
+      "Parent" : null,
+      "Duplicated" : null
+    } ],
+    "Certificate" : [ {
+      "Id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+      "SubjectDistinguishedName" : [ {
+        "value" : "2.5.4.5=#130839392d3131373432,uid=y35007,cn=el bahhari abdessamad,ou=ancfcc,o=ancfcc,c=ma",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "cn=baridesign ac classe 3,ou=baridesign,ou=50413,o=barid al maghrib,c=ma",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 176582600188646856643663170787160952277423105426,
+      "SubjectSerialNumber" : "99-11742",
+      "CommonName" : "EL BAHHARI Abdessamad",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "MA",
+      "OrganizationIdentifier" : null,
+      "OrganizationName" : "ANCFCC",
+      "OrganizationalUnit" : "ANCFCC",
+      "Title" : null,
+      "GivenName" : null,
+      "Surname" : null,
+      "Pseudonym" : null,
+      "Email" : null,
+      "subjectAlternativeName" : [ "a.elbahhari@ancfcc.gov.ma" ],
+      "aiaUrl" : [ ],
+      "crlUrl" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+      "ocspServerUrl" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+      "Source" : [ "SIGNATURE" ],
+      "NotAfter" : "2020-05-08T08:43:16Z",
+      "NotBefore" : "2018-05-08T08:43:16Z",
+      "PublicKeySize" : 2048,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+      "KeyUsage" : [ "nonRepudiation" ],
+      "extendedKeyUsagesOid" : [ ],
+      "IdPkixOcspNoCheck" : false,
+      "ValAssuredShortTermCertificate" : null,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "?",
+        "DigestAlgoUsedToSignThisToken" : "SHA256",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : false,
+        "SignatureValid" : false
+      },
+      "SigningCertificate" : null,
+      "ChainItem" : [ ],
+      "Trusted" : false,
+      "SelfSigned" : false,
+      "certificatePolicy" : [ {
+        "value" : "1.2.504.1.1.1.1.1.1.1.27.4",
+        "Description" : null,
+        "cpsUrl" : "Signature__Securisee"
+      } ],
+      "QcStatements" : {
+        "QcCompliance" : {
+          "present" : true
+        },
+        "QcEuLimitValue" : null,
+        "QcEuRetentionPeriod" : null,
+        "QcSSCD" : {
+          "present" : true
+        },
+        "PdsLocation" : null,
+        "QcType" : null,
+        "CountryName" : null,
+        "SemanticsIdentifier" : null,
+        "PSD2QcInfo" : null,
+        "OID" : null,
+        "MRACertificateMapping" : null,
+        "enactedMRA" : null
+      },
+      "TrustedServiceProvider" : [ ],
+      "CertificateRevocation" : null,
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+        "match" : null
+      }
+    } ],
+    "Revocation" : [ ],
+    "Timestamp" : [ ],
+    "OrphanTokens" : null,
+    "SignerData" : [ {
+      "Id" : "DOCUMENT_Full-PDF",
+      "ReferencedName" : "Full PDF",
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "match" : null
+      },
+      "Parent" : null
+    } ],
+    "TrustedList" : [ ]
+  },
+  "diagnosticData" : {
+    "usedCertificates" : [ {
+      "serialNumber" : "176582600188646856643663170787160952277423105426",
+      "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+      "state" : null,
+      "trusted" : false,
+      "countryName" : "MA",
+      "psd2Info" : null,
+      "qclimitValue" : null,
+      "keyUsages" : [ "NON_REPUDIATION" ],
+      "cpsUrls" : [ "Signature__Securisee" ],
+      "pseudo" : null,
+      "notAfter" : 1588927396000,
+      "notBefore" : 1525768996000,
+      "subjectAlternativeNames" : [ "a.elbahhari@ancfcc.gov.ma" ],
+      "selfSigned" : false,
+      "commonName" : "EL BAHHARI Abdessamad",
+      "givenName" : null,
+      "locality" : null,
+      "organizationalUnit" : "ANCFCC",
+      "surname" : null,
+      "sources" : [ "SIGNATURE" ],
+      "certificateDN" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+      "revocationDataAvailable" : false,
+      "certificateIssuerDN" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+      "certificateRevocationData" : [ ],
+      "readableCertificateName" : "EL BAHHARI Abdessamad",
+      "title" : null,
+      "entityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+      "policyIds" : [ "1.2.504.1.1.1.1.1.1.1.27.4" ],
+      "binaries" : null,
+      "ocspaccessUrls" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+      "extendedKeyUsages" : [ ],
+      "crldistributionPoints" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+      "organizationIdentifier" : null,
+      "subjectSerialNumber" : "99-11742",
+      "valAssuredShortTermCertificate" : false,
+      "idPkixOcspNoCheck" : false,
+      "digestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+        "match" : null
+      },
+      "certificateTSPServiceExpiredCertsRevocationInfo" : null,
+      "organizationName" : "ANCFCC",
+      "qcLegislationCountryCodes" : [ ],
+      "semanticsIdentifier" : null,
+      "qcCompliance" : true,
+      "qcTypes" : [ ],
+      "authorityInformationAccessUrls" : [ ],
+      "originalThirdCountrySupportedByQSCD" : false,
+      "originalThirdCountryQcLegislationCountryCodes" : [ ],
+      "mraenactedTrustServiceLegalIdentifier" : null,
+      "originalThirdCountryOtherQcStatements" : [ ],
+      "originalThirdCountryQcCompliance" : false,
+      "trustedListReached" : false,
+      "supportedByQSCD" : true,
+      "qcpdslocations" : [ ],
+      "trustedServices" : [ ],
+      "otherQcStatements" : [ ],
+      "qceuRetentionPeriod" : null,
+      "idKpOCSPSigning" : false,
+      "originalThirdCountryQCTypes" : [ ],
+      "email" : null,
+      "trustServiceProviders" : [ ],
+      "certificateChain" : [ ],
+      "trustedChain" : false,
+      "digestAlgorithm" : "SHA256",
+      "signatureIntact" : false,
+      "signatureAlgorithm" : "RSA_SHA256",
+      "maskGenerationFunction" : null,
+      "signingCertificate" : null,
+      "encryptionAlgorithm" : "RSA",
+      "digestMatchers" : [ ],
+      "signingCertificateReferenceUnique" : false,
+      "signingCertificateReferencePresent" : false,
+      "certificateChainFromTrustedStore" : false,
+      "keyLengthUsedToSignThisToken" : "?",
+      "signingCertificateReferences" : [ ],
+      "signingCertificateReference" : null,
+      "signingCertificatePublicKey" : null,
+      "signatureValid" : false
+    } ],
+    "jaxbModel" : {
+      "DocumentName" : "Barid eSign - CertQ 1.pdf",
+      "ValidationDate" : "2023-03-09T11:29:38Z",
+      "ContainerInfo" : null,
+      "Signature" : [ "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459" ],
+      "Certificate" : [ "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843" ],
+      "Revocation" : [ ],
+      "Timestamp" : [ ],
+      "OrphanTokens" : null,
+      "SignerData" : [ "DOCUMENT_Full-PDF" ],
+      "TrustedList" : [ ]
+    },
+    "timestampList" : [ ],
+    "firstPolicyId" : "",
+    "trustedLists" : [ ],
+    "containerInfo" : null,
+    "allOrphanRevocationObjects" : [ ],
+    "allOrphanCertificateObjects" : [ ],
+    "firstSignatureFormat" : "PDF_NOT_ETSI",
+    "timestampIdList" : [ ],
+    "firstSignatureDate" : 1598540355000,
+    "validationDate" : 1678361378311,
+    "firstSignatureId" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+    "firstSignatureDigestAlgorithm" : "SHA1",
+    "signatureIdList" : [ "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459" ],
+    "originalSignerDocuments" : [ {
+      "id" : "DOCUMENT_Full-PDF",
+      "digestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "match" : null
+      },
+      "referencedName" : "Full PDF"
+    } ],
+    "allCounterSignatures" : [ ],
+    "allSignerDocuments" : [ {
+      "id" : "DOCUMENT_Full-PDF",
+      "digestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "match" : null
+      },
+      "referencedName" : "Full PDF"
+    } ],
+    "mimetypeFilePresent" : false,
+    "listOfTrustedLists" : [ ],
+    "mimetypeFileContent" : null,
+    "allOrphanRevocationReferences" : [ ],
+    "containerInfoPresent" : false,
+    "allRevocationData" : [ ],
+    "signedAssertionsInFirstSignature" : [ ],
+    "allOrphanCertificateReferences" : [ ],
+    "firstSignatureEncryptionAlgorithm" : "RSA",
+    "containerType" : null,
+    "signatures" : [ {
+      "contentType" : "1.2.840.113549.1.7.1",
+      "location" : null,
+      "parent" : null,
+      "id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+      "countryName" : null,
+      "city" : null,
+      "streetAddress" : null,
+      "signerRoles" : [ ],
+      "postalCode" : null,
+      "postalAddress" : [ ],
+      "policyStoreId" : null,
+      "policyPresent" : false,
+      "policyZeroHash" : false,
+      "policyUrl" : "",
+      "reason" : null,
+      "contactInfo" : null,
+      "signerName" : null,
+      "thereXLevel" : false,
+      "timestampList" : [ ],
+      "thereTLevel" : false,
+      "thereALevel" : false,
+      "claimedSigningTime" : 1598540355000,
+      "policyDocumentationReferences" : [ ],
+      "signatureFormat" : "PDF_NOT_ETSI",
+      "alevelTechnicallyValid" : false,
+      "timestampIdsList" : [ ],
+      "tlevelTechnicallyValid" : false,
+      "signingCertificateIdentified" : true,
+      "xlevelTechnicallyValid" : false,
+      "signatureScopes" : [ {
+        "Scope" : "FULL",
+        "Name" : "Full PDF",
+        "Description" : "The document ByteRange : [0, 3785, 20171, 159363]",
+        "Transformation" : null,
+        "SignerData" : "DOCUMENT_Full-PDF"
+      } ],
+      "blevelTechnicallyValid" : true,
+      "archiveTimestamps" : [ ],
+      "counterSignature" : false,
+      "signedAssertions" : [ ],
+      "errorMessage" : null,
+      "filter" : "Adobe.PPKLite",
+      "policyDescription" : "",
+      "contentTimestamps" : [ ],
+      "commitmentTypeIndications" : [ ],
+      "signatureFilename" : "Barid eSign - CertQ 1.pdf",
+      "signatureTimestamps" : [ ],
+      "messageDigest" : {
+        "DataFound" : true,
+        "DataIntact" : true,
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+        "match" : null,
+        "type" : "MESSAGE_DIGEST",
+        "name" : null,
+        "duplicated" : null
+      },
+      "signatureValue" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+      "policyId" : "",
+      "mimeType" : null,
+      "subFilter" : "ETSI.CAdES.detached",
+      "daidentifier" : null,
+      "fieldMDP" : null,
+      "sigFieldLock" : null,
+      "contentHints" : null,
+      "claimedRoles" : [ ],
+      "binaries" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+      "postOfficeBoxNumber" : null,
+      "stateOrProvince" : null,
+      "signatureDigestReference" : {
+        "CanonicalizationMethod" : null,
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0="
+      },
+      "dataToBeSignedRepresentation" : {
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "j3CEH84ccldDX5XQTMa4mKTRngw=",
+        "match" : null
+      },
+      "digestMatchers" : [ {
+        "DataFound" : true,
+        "DataIntact" : true,
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+        "match" : null,
+        "type" : "MESSAGE_DIGEST",
+        "name" : null,
+        "duplicated" : null
+      } ],
+      "documentTimestamps" : [ ],
+      "signatureByteRange" : [ 0, 3785, 20171, 159363 ],
+      "contentIdentifier" : null,
+      "certifiedRoles" : [ ],
+      "pdfrevision" : {
+        "SignatureField" : [ {
+          "SigFieldLock" : null,
+          "name" : "Signature1"
+        } ],
+        "PDFSignatureDictionary" : {
+          "SignerName" : null,
+          "Type" : "Sig",
+          "Filter" : "Adobe.PPKLite",
+          "SubFilter" : "ETSI.CAdES.detached",
+          "ContactInfo" : null,
+          "Location" : null,
+          "Reason" : null,
+          "SignatureByteRange" : [ 0, 3785, 20171, 159363 ],
+          "DocMDP" : null,
+          "FieldMDP" : null
+        },
+        "ModificationDetection" : null
+      },
+      "docHashOnly" : false,
+      "hashOnly" : false,
+      "signatureProductionPlacePresent" : false,
+      "allTimestampsProducedAfterSignatureCreation" : [ ],
+      "pdfVisualDifferenceConcernedPages" : [ ],
+      "policyStoreDocumentationReferences" : [ ],
+      "pdfAnnotationsOverlapConcernedPages" : [ ],
+      "pdfPageDifferenceConcernedPages" : [ ],
+      "alevelTimestamps" : [ ],
+      "pdfExtensionChanges" : [ ],
+      "pdfSignatureOrFormFillChanges" : [ ],
+      "pdfAnnotationChanges" : [ ],
+      "pdfUndefinedChanges" : [ ],
+      "modifiedFieldNames" : [ ],
+      "structuralValidationValid" : true,
+      "tlevelTimestamps" : [ ],
+      "timestampLevelX" : [ ],
+      "policyTransforms" : [ ],
+      "firstFieldName" : "Signature1",
+      "signatureDictionaryType" : "Sig",
+      "signatureInformationStore" : [ {
+        "IssuerName" : "CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA",
+        "SerialNumber" : 176582600188646856643663170787160952277423105426,
+        "Ski" : null,
+        "Current" : true
+      } ],
+      "policyDocSpecification" : null,
+      "policyProcessingError" : "",
+      "policyAsn1Processable" : false,
+      "policyStoreDigestAlgoAndValue" : null,
+      "signatureFieldNames" : [ "Signature1" ],
+      "signatureDuplicated" : false,
+      "policyDigestAlgoAndValue" : null,
+      "policyStoreLocalURI" : null,
+      "keyIdentifierReference" : null,
+      "policyUserNotice" : null,
+      "docMDPPermissions" : null,
+      "structuralValidationMessages" : [ ],
+      "policyStorePresent" : false,
+      "policyStoreDescription" : null,
+      "policyIdentified" : false,
+      "policyDigestValid" : false,
+      "policyDigestAlgorithmsEqual" : false,
+      "certificateChain" : [ {
+        "serialNumber" : "176582600188646856643663170787160952277423105426",
+        "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "state" : null,
+        "trusted" : false,
+        "countryName" : "MA",
+        "psd2Info" : null,
+        "qclimitValue" : null,
+        "keyUsages" : [ "NON_REPUDIATION" ],
+        "cpsUrls" : [ "Signature__Securisee" ],
+        "pseudo" : null,
+        "notAfter" : 1588927396000,
+        "notBefore" : 1525768996000,
+        "subjectAlternativeNames" : [ "a.elbahhari@ancfcc.gov.ma" ],
+        "selfSigned" : false,
+        "commonName" : "EL BAHHARI Abdessamad",
+        "givenName" : null,
+        "locality" : null,
+        "organizationalUnit" : "ANCFCC",
+        "surname" : null,
+        "sources" : [ "SIGNATURE" ],
+        "certificateDN" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+        "revocationDataAvailable" : false,
+        "certificateIssuerDN" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+        "certificateRevocationData" : [ ],
+        "readableCertificateName" : "EL BAHHARI Abdessamad",
+        "title" : null,
+        "entityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+        "policyIds" : [ "1.2.504.1.1.1.1.1.1.1.27.4" ],
+        "binaries" : null,
+        "ocspaccessUrls" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+        "extendedKeyUsages" : [ ],
+        "crldistributionPoints" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+        "organizationIdentifier" : null,
+        "subjectSerialNumber" : "99-11742",
+        "valAssuredShortTermCertificate" : false,
+        "idPkixOcspNoCheck" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA256",
+          "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+          "match" : null
+        },
+        "certificateTSPServiceExpiredCertsRevocationInfo" : null,
+        "organizationName" : "ANCFCC",
+        "qcLegislationCountryCodes" : [ ],
+        "semanticsIdentifier" : null,
+        "qcCompliance" : true,
+        "qcTypes" : [ ],
+        "authorityInformationAccessUrls" : [ ],
+        "originalThirdCountrySupportedByQSCD" : false,
+        "originalThirdCountryQcLegislationCountryCodes" : [ ],
+        "mraenactedTrustServiceLegalIdentifier" : null,
+        "originalThirdCountryOtherQcStatements" : [ ],
+        "originalThirdCountryQcCompliance" : false,
+        "trustedListReached" : false,
+        "supportedByQSCD" : true,
+        "qcpdslocations" : [ ],
+        "trustedServices" : [ ],
+        "otherQcStatements" : [ ],
+        "qceuRetentionPeriod" : null,
+        "idKpOCSPSigning" : false,
+        "originalThirdCountryQCTypes" : [ ],
+        "email" : null,
+        "trustServiceProviders" : [ ],
+        "certificateChain" : [ ],
+        "trustedChain" : false,
+        "digestAlgorithm" : "SHA256",
+        "signatureIntact" : false,
+        "signatureAlgorithm" : "RSA_SHA256",
+        "maskGenerationFunction" : null,
+        "signingCertificate" : null,
+        "encryptionAlgorithm" : "RSA",
+        "digestMatchers" : [ ],
+        "signingCertificateReferenceUnique" : false,
+        "signingCertificateReferencePresent" : false,
+        "certificateChainFromTrustedStore" : false,
+        "keyLengthUsedToSignThisToken" : "?",
+        "signingCertificateReferences" : [ ],
+        "signingCertificateReference" : null,
+        "signingCertificatePublicKey" : null,
+        "signatureValid" : false
+      } ],
+      "trustedChain" : false,
+      "digestAlgorithm" : "SHA1",
+      "signatureIntact" : true,
+      "signatureAlgorithm" : "RSA_SHA1",
+      "maskGenerationFunction" : null,
+      "signingCertificate" : {
+        "serialNumber" : "176582600188646856643663170787160952277423105426",
+        "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "state" : null,
+        "trusted" : false,
+        "countryName" : "MA",
+        "psd2Info" : null,
+        "qclimitValue" : null,
+        "keyUsages" : [ "NON_REPUDIATION" ],
+        "cpsUrls" : [ "Signature__Securisee" ],
+        "pseudo" : null,
+        "notAfter" : 1588927396000,
+        "notBefore" : 1525768996000,
+        "subjectAlternativeNames" : [ "a.elbahhari@ancfcc.gov.ma" ],
+        "selfSigned" : false,
+        "commonName" : "EL BAHHARI Abdessamad",
+        "givenName" : null,
+        "locality" : null,
+        "organizationalUnit" : "ANCFCC",
+        "surname" : null,
+        "sources" : [ "SIGNATURE" ],
+        "certificateDN" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+        "revocationDataAvailable" : false,
+        "certificateIssuerDN" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+        "certificateRevocationData" : [ ],
+        "readableCertificateName" : "EL BAHHARI Abdessamad",
+        "title" : null,
+        "entityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+        "policyIds" : [ "1.2.504.1.1.1.1.1.1.1.27.4" ],
+        "binaries" : null,
+        "ocspaccessUrls" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+        "extendedKeyUsages" : [ ],
+        "crldistributionPoints" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+        "organizationIdentifier" : null,
+        "subjectSerialNumber" : "99-11742",
+        "valAssuredShortTermCertificate" : false,
+        "idPkixOcspNoCheck" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA256",
+          "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+          "match" : null
+        },
+        "certificateTSPServiceExpiredCertsRevocationInfo" : null,
+        "organizationName" : "ANCFCC",
+        "qcLegislationCountryCodes" : [ ],
+        "semanticsIdentifier" : null,
+        "qcCompliance" : true,
+        "qcTypes" : [ ],
+        "authorityInformationAccessUrls" : [ ],
+        "originalThirdCountrySupportedByQSCD" : false,
+        "originalThirdCountryQcLegislationCountryCodes" : [ ],
+        "mraenactedTrustServiceLegalIdentifier" : null,
+        "originalThirdCountryOtherQcStatements" : [ ],
+        "originalThirdCountryQcCompliance" : false,
+        "trustedListReached" : false,
+        "supportedByQSCD" : true,
+        "qcpdslocations" : [ ],
+        "trustedServices" : [ ],
+        "otherQcStatements" : [ ],
+        "qceuRetentionPeriod" : null,
+        "idKpOCSPSigning" : false,
+        "originalThirdCountryQCTypes" : [ ],
+        "email" : null,
+        "trustServiceProviders" : [ ],
+        "certificateChain" : [ ],
+        "trustedChain" : false,
+        "digestAlgorithm" : "SHA256",
+        "signatureIntact" : false,
+        "signatureAlgorithm" : "RSA_SHA256",
+        "maskGenerationFunction" : null,
+        "signingCertificate" : null,
+        "encryptionAlgorithm" : "RSA",
+        "digestMatchers" : [ ],
+        "signingCertificateReferenceUnique" : false,
+        "signingCertificateReferencePresent" : false,
+        "certificateChainFromTrustedStore" : false,
+        "keyLengthUsedToSignThisToken" : "?",
+        "signingCertificateReferences" : [ ],
+        "signingCertificateReference" : null,
+        "signingCertificatePublicKey" : null,
+        "signatureValid" : false
+      },
+      "encryptionAlgorithm" : "RSA",
+      "signingCertificateReferenceUnique" : true,
+      "signingCertificateReferencePresent" : true,
+      "certificateChainFromTrustedStore" : false,
+      "keyLengthUsedToSignThisToken" : "2048",
+      "signingCertificateReferences" : [ {
+        "certificateId" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "issuerSerial" : null,
+        "issuerName" : null,
+        "origin" : "SIGNING_CERTIFICATE",
+        "ski" : null,
+        "issuerSerialPresent" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA1",
+          "DigestValue" : "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+          "match" : true
+        },
+        "digestMethod" : "SHA1",
+        "digestValueMatch" : true,
+        "issuerSerialMatch" : false,
+        "digestValuePresent" : true
+      } ],
+      "signingCertificateReference" : {
+        "certificateId" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "issuerSerial" : null,
+        "issuerName" : null,
+        "origin" : "SIGNING_CERTIFICATE",
+        "ski" : null,
+        "issuerSerialPresent" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA1",
+          "DigestValue" : "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+          "match" : true
+        },
+        "digestMethod" : "SHA1",
+        "digestValueMatch" : true,
+        "issuerSerialMatch" : false,
+        "digestValuePresent" : true
+      },
+      "signingCertificatePublicKey" : null,
+      "signatureValid" : true
+    } ],
+    "zipComment" : null,
+    "allSignatures" : [ {
+      "contentType" : "1.2.840.113549.1.7.1",
+      "location" : null,
+      "parent" : null,
+      "id" : "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+      "countryName" : null,
+      "city" : null,
+      "streetAddress" : null,
+      "signerRoles" : [ ],
+      "postalCode" : null,
+      "postalAddress" : [ ],
+      "policyStoreId" : null,
+      "policyPresent" : false,
+      "policyZeroHash" : false,
+      "policyUrl" : "",
+      "reason" : null,
+      "contactInfo" : null,
+      "signerName" : null,
+      "thereXLevel" : false,
+      "timestampList" : [ ],
+      "thereTLevel" : false,
+      "thereALevel" : false,
+      "claimedSigningTime" : 1598540355000,
+      "policyDocumentationReferences" : [ ],
+      "signatureFormat" : "PDF_NOT_ETSI",
+      "alevelTechnicallyValid" : false,
+      "timestampIdsList" : [ ],
+      "tlevelTechnicallyValid" : false,
+      "signingCertificateIdentified" : true,
+      "xlevelTechnicallyValid" : false,
+      "signatureScopes" : [ {
+        "Scope" : "FULL",
+        "Name" : "Full PDF",
+        "Description" : "The document ByteRange : [0, 3785, 20171, 159363]",
+        "Transformation" : null,
+        "SignerData" : "DOCUMENT_Full-PDF"
+      } ],
+      "blevelTechnicallyValid" : true,
+      "archiveTimestamps" : [ ],
+      "counterSignature" : false,
+      "signedAssertions" : [ ],
+      "errorMessage" : null,
+      "filter" : "Adobe.PPKLite",
+      "policyDescription" : "",
+      "contentTimestamps" : [ ],
+      "commitmentTypeIndications" : [ ],
+      "signatureFilename" : "Barid eSign - CertQ 1.pdf",
+      "signatureTimestamps" : [ ],
+      "messageDigest" : {
+        "DataFound" : true,
+        "DataIntact" : true,
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+        "match" : null,
+        "type" : "MESSAGE_DIGEST",
+        "name" : null,
+        "duplicated" : null
+      },
+      "signatureValue" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+      "policyId" : "",
+      "mimeType" : null,
+      "subFilter" : "ETSI.CAdES.detached",
+      "daidentifier" : null,
+      "fieldMDP" : null,
+      "sigFieldLock" : null,
+      "contentHints" : null,
+      "claimedRoles" : [ ],
+      "binaries" : "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+      "postOfficeBoxNumber" : null,
+      "stateOrProvince" : null,
+      "signatureDigestReference" : {
+        "CanonicalizationMethod" : null,
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0="
+      },
+      "dataToBeSignedRepresentation" : {
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "j3CEH84ccldDX5XQTMa4mKTRngw=",
+        "match" : null
+      },
+      "digestMatchers" : [ {
+        "DataFound" : true,
+        "DataIntact" : true,
+        "DigestMethod" : "SHA1",
+        "DigestValue" : "1ieave1O2f05nR6S6xDu8BMDoTc=",
+        "match" : null,
+        "type" : "MESSAGE_DIGEST",
+        "name" : null,
+        "duplicated" : null
+      } ],
+      "documentTimestamps" : [ ],
+      "signatureByteRange" : [ 0, 3785, 20171, 159363 ],
+      "contentIdentifier" : null,
+      "certifiedRoles" : [ ],
+      "pdfrevision" : {
+        "SignatureField" : [ {
+          "SigFieldLock" : null,
+          "name" : "Signature1"
+        } ],
+        "PDFSignatureDictionary" : {
+          "SignerName" : null,
+          "Type" : "Sig",
+          "Filter" : "Adobe.PPKLite",
+          "SubFilter" : "ETSI.CAdES.detached",
+          "ContactInfo" : null,
+          "Location" : null,
+          "Reason" : null,
+          "SignatureByteRange" : [ 0, 3785, 20171, 159363 ],
+          "DocMDP" : null,
+          "FieldMDP" : null
+        },
+        "ModificationDetection" : null
+      },
+      "docHashOnly" : false,
+      "hashOnly" : false,
+      "signatureProductionPlacePresent" : false,
+      "allTimestampsProducedAfterSignatureCreation" : [ ],
+      "pdfVisualDifferenceConcernedPages" : [ ],
+      "policyStoreDocumentationReferences" : [ ],
+      "pdfAnnotationsOverlapConcernedPages" : [ ],
+      "pdfPageDifferenceConcernedPages" : [ ],
+      "alevelTimestamps" : [ ],
+      "pdfExtensionChanges" : [ ],
+      "pdfSignatureOrFormFillChanges" : [ ],
+      "pdfAnnotationChanges" : [ ],
+      "pdfUndefinedChanges" : [ ],
+      "modifiedFieldNames" : [ ],
+      "structuralValidationValid" : true,
+      "tlevelTimestamps" : [ ],
+      "timestampLevelX" : [ ],
+      "policyTransforms" : [ ],
+      "firstFieldName" : "Signature1",
+      "signatureDictionaryType" : "Sig",
+      "signatureInformationStore" : [ {
+        "IssuerName" : "CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA",
+        "SerialNumber" : 176582600188646856643663170787160952277423105426,
+        "Ski" : null,
+        "Current" : true
+      } ],
+      "policyDocSpecification" : null,
+      "policyProcessingError" : "",
+      "policyAsn1Processable" : false,
+      "policyStoreDigestAlgoAndValue" : null,
+      "signatureFieldNames" : [ "Signature1" ],
+      "signatureDuplicated" : false,
+      "policyDigestAlgoAndValue" : null,
+      "policyStoreLocalURI" : null,
+      "keyIdentifierReference" : null,
+      "policyUserNotice" : null,
+      "docMDPPermissions" : null,
+      "structuralValidationMessages" : [ ],
+      "policyStorePresent" : false,
+      "policyStoreDescription" : null,
+      "policyIdentified" : false,
+      "policyDigestValid" : false,
+      "policyDigestAlgorithmsEqual" : false,
+      "certificateChain" : [ {
+        "serialNumber" : "176582600188646856643663170787160952277423105426",
+        "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "state" : null,
+        "trusted" : false,
+        "countryName" : "MA",
+        "psd2Info" : null,
+        "qclimitValue" : null,
+        "keyUsages" : [ "NON_REPUDIATION" ],
+        "cpsUrls" : [ "Signature__Securisee" ],
+        "pseudo" : null,
+        "notAfter" : 1588927396000,
+        "notBefore" : 1525768996000,
+        "subjectAlternativeNames" : [ "a.elbahhari@ancfcc.gov.ma" ],
+        "selfSigned" : false,
+        "commonName" : "EL BAHHARI Abdessamad",
+        "givenName" : null,
+        "locality" : null,
+        "organizationalUnit" : "ANCFCC",
+        "surname" : null,
+        "sources" : [ "SIGNATURE" ],
+        "certificateDN" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+        "revocationDataAvailable" : false,
+        "certificateIssuerDN" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+        "certificateRevocationData" : [ ],
+        "readableCertificateName" : "EL BAHHARI Abdessamad",
+        "title" : null,
+        "entityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+        "policyIds" : [ "1.2.504.1.1.1.1.1.1.1.27.4" ],
+        "binaries" : null,
+        "ocspaccessUrls" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+        "extendedKeyUsages" : [ ],
+        "crldistributionPoints" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+        "organizationIdentifier" : null,
+        "subjectSerialNumber" : "99-11742",
+        "valAssuredShortTermCertificate" : false,
+        "idPkixOcspNoCheck" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA256",
+          "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+          "match" : null
+        },
+        "certificateTSPServiceExpiredCertsRevocationInfo" : null,
+        "organizationName" : "ANCFCC",
+        "qcLegislationCountryCodes" : [ ],
+        "semanticsIdentifier" : null,
+        "qcCompliance" : true,
+        "qcTypes" : [ ],
+        "authorityInformationAccessUrls" : [ ],
+        "originalThirdCountrySupportedByQSCD" : false,
+        "originalThirdCountryQcLegislationCountryCodes" : [ ],
+        "mraenactedTrustServiceLegalIdentifier" : null,
+        "originalThirdCountryOtherQcStatements" : [ ],
+        "originalThirdCountryQcCompliance" : false,
+        "trustedListReached" : false,
+        "supportedByQSCD" : true,
+        "qcpdslocations" : [ ],
+        "trustedServices" : [ ],
+        "otherQcStatements" : [ ],
+        "qceuRetentionPeriod" : null,
+        "idKpOCSPSigning" : false,
+        "originalThirdCountryQCTypes" : [ ],
+        "email" : null,
+        "trustServiceProviders" : [ ],
+        "certificateChain" : [ ],
+        "trustedChain" : false,
+        "digestAlgorithm" : "SHA256",
+        "signatureIntact" : false,
+        "signatureAlgorithm" : "RSA_SHA256",
+        "maskGenerationFunction" : null,
+        "signingCertificate" : null,
+        "encryptionAlgorithm" : "RSA",
+        "digestMatchers" : [ ],
+        "signingCertificateReferenceUnique" : false,
+        "signingCertificateReferencePresent" : false,
+        "certificateChainFromTrustedStore" : false,
+        "keyLengthUsedToSignThisToken" : "?",
+        "signingCertificateReferences" : [ ],
+        "signingCertificateReference" : null,
+        "signingCertificatePublicKey" : null,
+        "signatureValid" : false
+      } ],
+      "trustedChain" : false,
+      "digestAlgorithm" : "SHA1",
+      "signatureIntact" : true,
+      "signatureAlgorithm" : "RSA_SHA1",
+      "maskGenerationFunction" : null,
+      "signingCertificate" : {
+        "serialNumber" : "176582600188646856643663170787160952277423105426",
+        "id" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "state" : null,
+        "trusted" : false,
+        "countryName" : "MA",
+        "psd2Info" : null,
+        "qclimitValue" : null,
+        "keyUsages" : [ "NON_REPUDIATION" ],
+        "cpsUrls" : [ "Signature__Securisee" ],
+        "pseudo" : null,
+        "notAfter" : 1588927396000,
+        "notBefore" : 1525768996000,
+        "subjectAlternativeNames" : [ "a.elbahhari@ancfcc.gov.ma" ],
+        "selfSigned" : false,
+        "commonName" : "EL BAHHARI Abdessamad",
+        "givenName" : null,
+        "locality" : null,
+        "organizationalUnit" : "ANCFCC",
+        "surname" : null,
+        "sources" : [ "SIGNATURE" ],
+        "certificateDN" : "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+        "revocationDataAvailable" : false,
+        "certificateIssuerDN" : "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+        "certificateRevocationData" : [ ],
+        "readableCertificateName" : "EL BAHHARI Abdessamad",
+        "title" : null,
+        "entityKey" : "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+        "policyIds" : [ "1.2.504.1.1.1.1.1.1.1.27.4" ],
+        "binaries" : null,
+        "ocspaccessUrls" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP" ],
+        "extendedKeyUsages" : [ ],
+        "crldistributionPoints" : [ "http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl" ],
+        "organizationIdentifier" : null,
+        "subjectSerialNumber" : "99-11742",
+        "valAssuredShortTermCertificate" : false,
+        "idPkixOcspNoCheck" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA256",
+          "DigestValue" : "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+          "match" : null
+        },
+        "certificateTSPServiceExpiredCertsRevocationInfo" : null,
+        "organizationName" : "ANCFCC",
+        "qcLegislationCountryCodes" : [ ],
+        "semanticsIdentifier" : null,
+        "qcCompliance" : true,
+        "qcTypes" : [ ],
+        "authorityInformationAccessUrls" : [ ],
+        "originalThirdCountrySupportedByQSCD" : false,
+        "originalThirdCountryQcLegislationCountryCodes" : [ ],
+        "mraenactedTrustServiceLegalIdentifier" : null,
+        "originalThirdCountryOtherQcStatements" : [ ],
+        "originalThirdCountryQcCompliance" : false,
+        "trustedListReached" : false,
+        "supportedByQSCD" : true,
+        "qcpdslocations" : [ ],
+        "trustedServices" : [ ],
+        "otherQcStatements" : [ ],
+        "qceuRetentionPeriod" : null,
+        "idKpOCSPSigning" : false,
+        "originalThirdCountryQCTypes" : [ ],
+        "email" : null,
+        "trustServiceProviders" : [ ],
+        "certificateChain" : [ ],
+        "trustedChain" : false,
+        "digestAlgorithm" : "SHA256",
+        "signatureIntact" : false,
+        "signatureAlgorithm" : "RSA_SHA256",
+        "maskGenerationFunction" : null,
+        "signingCertificate" : null,
+        "encryptionAlgorithm" : "RSA",
+        "digestMatchers" : [ ],
+        "signingCertificateReferenceUnique" : false,
+        "signingCertificateReferencePresent" : false,
+        "certificateChainFromTrustedStore" : false,
+        "keyLengthUsedToSignThisToken" : "?",
+        "signingCertificateReferences" : [ ],
+        "signingCertificateReference" : null,
+        "signingCertificatePublicKey" : null,
+        "signatureValid" : false
+      },
+      "encryptionAlgorithm" : "RSA",
+      "signingCertificateReferenceUnique" : true,
+      "signingCertificateReferencePresent" : true,
+      "certificateChainFromTrustedStore" : false,
+      "keyLengthUsedToSignThisToken" : "2048",
+      "signingCertificateReferences" : [ {
+        "certificateId" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "issuerSerial" : null,
+        "issuerName" : null,
+        "origin" : "SIGNING_CERTIFICATE",
+        "ski" : null,
+        "issuerSerialPresent" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA1",
+          "DigestValue" : "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+          "match" : true
+        },
+        "digestMethod" : "SHA1",
+        "digestValueMatch" : true,
+        "issuerSerialMatch" : false,
+        "digestValuePresent" : true
+      } ],
+      "signingCertificateReference" : {
+        "certificateId" : "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+        "issuerSerial" : null,
+        "issuerName" : null,
+        "origin" : "SIGNING_CERTIFICATE",
+        "ski" : null,
+        "issuerSerialPresent" : false,
+        "digestAlgoAndValue" : {
+          "DigestMethod" : "SHA1",
+          "DigestValue" : "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+          "match" : true
+        },
+        "digestMethod" : "SHA1",
+        "digestValueMatch" : true,
+        "issuerSerialMatch" : false,
+        "digestValuePresent" : true
+      },
+      "signingCertificatePublicKey" : null,
+      "signatureValid" : true
+    } ],
+    "timestampSet" : [ ],
+    "documentName" : "Barid eSign - CertQ 1.pdf"
+  }
+}

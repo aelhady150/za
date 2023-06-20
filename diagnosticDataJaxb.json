@@ -1,0 +1,270 @@
+{
+	"DocumentName": "Barid eSign - CertQ 1.pdf",
+	"ValidationDate": "2023-03-09T11:29:38Z",
+	"ContainerInfo": null,
+	"Signature": [
+		{
+			"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+			"DAIdentifier": null,
+			"SignatureFilename": "Barid eSign - CertQ 1.pdf",
+			"ErrorMessage": null,
+			"ClaimedSigningTime": "2020-08-27T14:59:15Z",
+			"SignatureFormat": "PDF-NOT-ETSI",
+			"StructuralValidation": {
+				"Message": [],
+				"valid": true
+			},
+			"DigestMatcher": [
+				{
+					"DataFound": true,
+					"DataIntact": true,
+					"DigestMethod": "SHA1",
+					"DigestValue": "1ieave1O2f05nR6S6xDu8BMDoTc=",
+					"match": null,
+					"type": "MESSAGE_DIGEST",
+					"name": null,
+					"duplicated": null
+				}
+			],
+			"BasicSignature": {
+				"EncryptionAlgoUsedToSignThisToken": "RSA",
+				"KeyLengthUsedToSignThisToken": "2048",
+				"DigestAlgoUsedToSignThisToken": "SHA1",
+				"MaskGenerationFunctionUsedToSignThisToken": null,
+				"SignatureIntact": true,
+				"SignatureValid": true
+			},
+			"SigningCertificate": {
+				"PublicKey": null,
+				"Certificate": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+			},
+			"ChainItem": [
+				{
+					"Certificate": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+				}
+			],
+			"ContentType": "1.2.840.113549.1.7.1",
+			"MimeType": null,
+			"ContentIdentifier": null,
+			"ContentHints": null,
+			"SignatureProductionPlace": null,
+			"CommitmentTypeIndication": [],
+			"SignerRole": [],
+			"Policy": null,
+			"SignaturePolicyStore": null,
+			"SignerInfo": [
+				{
+					"IssuerName": "CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA",
+					"SerialNumber": 176582600188646856643663170787160952277423105426,
+					"Ski": null,
+					"Current": true
+				}
+			],
+			"PDFRevision": {
+				"SignatureField": [
+					{
+						"SigFieldLock": null,
+						"name": "Signature1"
+					}
+				],
+				"PDFSignatureDictionary": {
+					"SignerName": null,
+					"Type": "Sig",
+					"Filter": "Adobe.PPKLite",
+					"SubFilter": "ETSI.CAdES.detached",
+					"ContactInfo": null,
+					"Location": null,
+					"Reason": null,
+					"SignatureByteRange": [
+						0,
+						3785,
+						20171,
+						159363
+					],
+					"DocMDP": null,
+					"FieldMDP": null
+				},
+				"ModificationDetection": null
+			},
+			"SignerDocumentRepresentations": {
+				"HashOnly": false,
+				"DocHashOnly": false
+			},
+			"FoundCertificates": {
+				"RelatedCertificate": [
+					{
+						"Origin": [
+							"SIGNED_DATA"
+						],
+						"CertificateRef": [
+							{
+								"Origin": "SIGNING_CERTIFICATE",
+								"IssuerSerial": null,
+								"DigestAlgoAndValue": {
+									"DigestMethod": "SHA1",
+									"DigestValue": "v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=",
+									"match": true
+								},
+								"SerialInfo": null
+							}
+						],
+						"Certificate": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+					}
+				],
+				"OrphanCertificate": []
+			},
+			"FoundRevocations": {
+				"RelatedRevocation": [],
+				"OrphanRevocation": []
+			},
+			"FoundTimestamp": [],
+			"SignatureScope": [
+				{
+					"Scope": "FULL",
+					"Name": "Full PDF",
+					"Description": "The document ByteRange : [0, 3785, 20171, 159363]",
+					"Transformation": null,
+					"SignerData": "DOCUMENT_Full-PDF"
+				}
+			],
+			"SignatureDigestReference": {
+				"CanonicalizationMethod": null,
+				"DigestMethod": "SHA256",
+				"DigestValue": "thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0="
+			},
+			"DataToBeSignedRepresentation": {
+				"DigestMethod": "SHA1",
+				"DigestValue": "j3CEH84ccldDX5XQTMa4mKTRngw=",
+				"match": null
+			},
+			"SignatureValue": "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==",
+			"CounterSignature": null,
+			"Parent": null,
+			"Duplicated": null
+		}
+	],
+	"Certificate": [
+		{
+			"Id": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+			"SubjectDistinguishedName": [
+				{
+					"value": "2.5.4.5=#130839392d3131373432,uid=y35007,cn=el bahhari abdessamad,ou=ancfcc,o=ancfcc,c=ma",
+					"Format": "CANONICAL"
+				},
+				{
+					"value": "2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA",
+					"Format": "RFC2253"
+				}
+			],
+			"IssuerDistinguishedName": [
+				{
+					"value": "cn=baridesign ac classe 3,ou=baridesign,ou=50413,o=barid al maghrib,c=ma",
+					"Format": "CANONICAL"
+				},
+				{
+					"value": "CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA",
+					"Format": "RFC2253"
+				}
+			],
+			"SerialNumber": 176582600188646856643663170787160952277423105426,
+			"SubjectSerialNumber": "99-11742",
+			"CommonName": "EL BAHHARI Abdessamad",
+			"Locality": null,
+			"State": null,
+			"CountryName": "MA",
+			"OrganizationIdentifier": null,
+			"OrganizationName": "ANCFCC",
+			"OrganizationalUnit": "ANCFCC",
+			"Title": null,
+			"GivenName": null,
+			"Surname": null,
+			"Pseudonym": null,
+			"Email": null,
+			"subjectAlternativeName": [
+				"a.elbahhari@ancfcc.gov.ma"
+			],
+			"aiaUrl": [],
+			"crlUrl": [
+				"http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl"
+			],
+			"ocspServerUrl": [
+				"http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP"
+			],
+			"Source": [
+				"SIGNATURE"
+			],
+			"NotAfter": "2020-05-08T08:43:16Z",
+			"NotBefore": "2018-05-08T08:43:16Z",
+			"PublicKeySize": 2048,
+			"PublicKeyEncryptionAlgo": "RSA",
+			"EntityKey": "PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F",
+			"KeyUsage": [
+				"nonRepudiation"
+			],
+			"extendedKeyUsagesOid": [],
+			"IdPkixOcspNoCheck": false,
+			"ValAssuredShortTermCertificate": null,
+			"BasicSignature": {
+				"EncryptionAlgoUsedToSignThisToken": "RSA",
+				"KeyLengthUsedToSignThisToken": "?",
+				"DigestAlgoUsedToSignThisToken": "SHA256",
+				"MaskGenerationFunctionUsedToSignThisToken": null,
+				"SignatureIntact": false,
+				"SignatureValid": false
+			},
+			"SigningCertificate": null,
+			"ChainItem": [],
+			"Trusted": false,
+			"SelfSigned": false,
+			"certificatePolicy": [
+				{
+					"value": "1.2.504.1.1.1.1.1.1.1.27.4",
+					"Description": null,
+					"cpsUrl": "Signature__Securisee"
+				}
+			],
+			"QcStatements": {
+				"QcCompliance": {
+					"present": true
+				},
+				"QcEuLimitValue": null,
+				"QcEuRetentionPeriod": null,
+				"QcSSCD": {
+					"present": true
+				},
+				"PdsLocation": null,
+				"QcType": null,
+				"CountryName": null,
+				"SemanticsIdentifier": null,
+				"PSD2QcInfo": null,
+				"OID": null,
+				"MRACertificateMapping": null,
+				"enactedMRA": null
+			},
+			"TrustedServiceProvider": [],
+			"CertificateRevocation": null,
+			"Base64Encoded": null,
+			"DigestAlgoAndValue": {
+				"DigestMethod": "SHA256",
+				"DigestValue": "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=",
+				"match": null
+			}
+		}
+	],
+	"Revocation": [],
+	"Timestamp": [],
+	"OrphanTokens": null,
+	"SignerData": [
+		{
+			"Id": "DOCUMENT_Full-PDF",
+			"ReferencedName": "Full PDF",
+			"DigestAlgoAndValue": {
+				"DigestMethod": "SHA256",
+				"DigestValue": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+				"match": null
+			},
+			"Parent": null
+		}
+	],
+	"TrustedList": []
+}

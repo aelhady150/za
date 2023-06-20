@@ -1,0 +1,92 @@
+{
+	"jaxbModel": {
+		"ValidationPolicy": {
+			"PolicyName": "QES AdESQC TL based",
+			"PolicyDescription": "Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\n\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t"
+		},
+		"DocumentName": "Barid eSign - CertQ 1.pdf",
+		"ValidSignaturesCount": 0,
+		"SignaturesCount": 1,
+		"ContainerType": null,
+		"signatureOrTimestamp": [
+			{
+				"Signature": {
+					"SigningTime": "2020-08-27T14:59:15Z",
+					"BestSignatureTime": "2023-03-09T11:29:38Z",
+					"SignedBy": "EL BAHHARI Abdessamad",
+					"SignatureLevel": {
+						"value": "N/A",
+						"description": "Not applicable"
+					},
+					"SignatureScope": [
+						{
+							"value": "The document ByteRange : [0, 3785, 20171, 159363]",
+							"Id": "DOCUMENT_Full-PDF",
+							"name": "Full PDF",
+							"scope": "FULL"
+						}
+					],
+					"Timestamps": null,
+					"Filename": null,
+					"CertificateChain": {
+						"Certificate": [
+							{
+								"id": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+								"qualifiedName": "EL BAHHARI Abdessamad"
+							}
+						]
+					},
+					"Indication": "INDETERMINATE",
+					"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+					"AdESValidationDetails": {
+						"Error": [
+							{
+								"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+								"Key": "BBB_XCV_CCCBB_SIG_ANS"
+							},
+							{
+								"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+								"Key": "ASCCM_AR_ANS_ANR"
+							}
+						],
+						"Warning": [],
+						"Info": []
+					},
+					"QualificationDetails": {
+						"Error": [
+							{
+								"value": "Unable to build a certificate chain up to a trusted list!",
+								"Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+							}
+						],
+						"Warning": [
+							{
+								"value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+								"Key": "QUAL_IS_ADES_IND"
+							}
+						],
+						"Info": []
+					},
+					"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+					"CounterSignature": null,
+					"ParentId": null,
+					"SignatureFormat": "PDF-NOT-ETSI",
+					"ExtensionPeriodMin": null,
+					"ExtensionPeriodMax": null
+				}
+			}
+		],
+		"Semantic": null,
+		"ValidationTime": "2023-03-09T11:29:38Z"
+	},
+	"timestampIdList": [],
+	"firstSignatureId": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+	"signatureIdList": [
+		"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459"
+	],
+	"validationTime": 1678361378311,
+	"documentFilename": "Barid eSign - CertQ 1.pdf",
+	"firstTimestampId": null,
+	"signaturesCount": 1,
+	"validSignaturesCount": 0
+}

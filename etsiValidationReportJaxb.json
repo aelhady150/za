@@ -1,0 +1,464 @@
+{
+	"SignatureValidationReport": [
+		{
+			"SignatureIdentifier": {
+				"id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+				"DigestAlgAndValue": {
+					"DigestMethod": {
+						"content": null,
+						"Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+					},
+					"DigestValue": "j3CEH84ccldDX5XQTMa4mKTRngw="
+				},
+				"SignatureValue": {
+					"Id": null,
+					"value": "Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA=="
+				},
+				"HashOnly": false,
+				"DocHashOnly": false,
+				"DAIdentifier": null,
+				"any": null
+			},
+			"ValidationConstraintsEvaluationReport": {
+				"SignatureValidationPolicy": null,
+				"ValidationConstraint": [
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:formatChecking",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:passed",
+							"SubIndication": null,
+							"AssociatedValidationReportData": null
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:identificationOfTheSigningCertificate",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:passed",
+							"SubIndication": null,
+							"AssociatedValidationReportData": null
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:validationContextInitialization",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:passed",
+							"SubIndication": null,
+							"AssociatedValidationReportData": null
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:cryptographicVerification",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:passed",
+							"SubIndication": null,
+							"AssociatedValidationReportData": null
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:signatureAcceptanceValidation",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:indeterminate",
+							"SubIndication": [
+								"urn:etsi:019102:subindication:CRYPTO_CONSTRAINTS_FAILURE_NO_POE"
+							],
+							"AssociatedValidationReportData": [
+								{
+									"TrustAnchor": null,
+									"CertificateChain": null,
+									"RelatedValidationObject": null,
+									"RevocationStatusInformation": null,
+									"CryptoInformation": null,
+									"AdditionalValidationReportData": {
+										"ReportData": [
+											{
+												"Type": "urn:cef:dss:message:error",
+												"Value": "The algorithm SHA1 is no longer considered reliable for signature creation!"
+											}
+										]
+									}
+								}
+							]
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:x509CertificateValidation",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:applied",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": {
+							"MainIndication": "urn:etsi:019102:mainindication:indeterminate",
+							"SubIndication": [
+								"urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND"
+							],
+							"AssociatedValidationReportData": [
+								{
+									"TrustAnchor": null,
+									"CertificateChain": null,
+									"RelatedValidationObject": null,
+									"RevocationStatusInformation": null,
+									"CryptoInformation": null,
+									"AdditionalValidationReportData": {
+										"ReportData": [
+											{
+												"Type": "urn:cef:dss:message:error",
+												"Value": "The certificate chain for signature is not trusted, it does not contain a trust anchor."
+											}
+										]
+									}
+								}
+							]
+						},
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:pastSignatureValidation",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:disabled",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": null,
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:pastCertificateValidation",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:disabled",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": null,
+						"Indications": null
+					},
+					{
+						"ValidationConstraintIdentifier": "urn:cef:dss:bbb:validationTimeSliding",
+						"ValidationConstraintParameter": null,
+						"ConstraintStatus": {
+							"Status": "urn:etsi:019102:constraintStatus:disabled",
+							"OverriddenBy": null
+						},
+						"ValidationStatus": null,
+						"Indications": null
+					}
+				]
+			},
+			"ValidationTimeInfo": {
+				"ValidationTime": "2023-03-09T11:29:38Z",
+				"BestSignatureTime": {
+					"POETime": "2023-03-09T11:29:38Z",
+					"TypeOfProof": "urn:etsi:019102:poetype:validation",
+					"POEObject": null
+				}
+			},
+			"SignersDocument": {
+				"content": [
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}DigestAlgAndValue",
+							"declaredType": "eu.europa.esig.xades.jaxb.xades132.DigestAlgAndValueType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignersDocumentType",
+							"value": {
+								"DigestMethod": {
+									"content": null,
+									"Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+								},
+								"DigestValue": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}SignersDocumentRepresentation",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.VOReferenceType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignersDocumentType",
+							"value": {
+								"any": null,
+								"VOReference": [
+									"DOCUMENT_Full-PDF"
+								]
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					}
+				]
+			},
+			"SignatureAttributes": {
+				"signingTimeOrSigningCertificateOrDataObjectFormat": [
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}SigningTime",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SASigningTimeType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"Time": "2020-08-27T14:59:15Z",
+								"AttributeObject": null,
+								"Signed": true
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}SigningCertificate",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SACertIDListType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"CertID": null,
+								"AttributeObject": [
+									{
+										"any": null,
+										"VOReference": [
+											"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+										]
+									}
+								],
+								"Signed": true
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}DataObjectFormat",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SADataObjectFormatType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"ContentType": "1.2.840.113549.1.7.1",
+								"MimeType": null,
+								"AttributeObject": null,
+								"Signed": true
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}MessageDigest",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SAMessageDigestType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"Digest": "1ieave1O2f05nR6S6xDu8BMDoTc=",
+								"AttributeObject": null,
+								"Signed": true
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}SubFilter",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SASubFilterType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"SubFilterElement": "ETSI.CAdES.detached",
+								"AttributeObject": null,
+								"Signed": null
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}ByteRange",
+							"declaredType": "java.util.List",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": [
+								0,
+								3785,
+								20171,
+								159363
+							],
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": true
+						}
+					},
+					{
+						"JAXBElement": {
+							"name": "{http://uri.etsi.org/19102/v1.2.1#}Filter",
+							"declaredType": "eu.europa.esig.validationreport.jaxb.SAFilterType",
+							"scope": "eu.europa.esig.validationreport.jaxb.SignatureAttributesType",
+							"value": {
+								"Filter": "Adobe.PPKLite"
+							},
+							"nil": false,
+							"globalScope": false,
+							"typeSubstituted": false
+						}
+					}
+				]
+			},
+			"SignerInformation": {
+				"SignerCertificate": {
+					"any": null,
+					"VOReference": [
+						"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+					]
+				},
+				"Signer": "EL BAHHARI Abdessamad",
+				"any": null,
+				"Pseudonym": null
+			},
+			"SignatureQuality": {
+				"SignatureQualityInformation": [
+					"urn:cef:dss:signatureQualification:notApplicable"
+				]
+			},
+			"SignatureValidationProcess": {
+				"SignatureValidationProcessID": "urn:etsi:019102:validationprocess:LTA",
+				"SignatureValidationServicePolicy": null,
+				"SignatureValidationPracticeStatement": null,
+				"any": null
+			},
+			"SignatureValidationStatus": {
+				"MainIndication": "urn:etsi:019102:mainindication:indeterminate",
+				"SubIndication": [
+					"urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND"
+				],
+				"AssociatedValidationReportData": [
+					{
+						"TrustAnchor": null,
+						"CertificateChain": {
+							"SigningCertificate": {
+								"any": null,
+								"VOReference": [
+									"CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+								]
+							},
+							"IntermediateCertificate": null,
+							"TrustAnchor": null,
+							"any": null
+						},
+						"RelatedValidationObject": null,
+						"RevocationStatusInformation": null,
+						"CryptoInformation": {
+							"ValidationObjectId": {
+								"any": null,
+								"VOReference": [
+									"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459"
+								]
+							},
+							"Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+							"AlgorithmParameters": null,
+							"SecureAlgorithm": false,
+							"NotAfter": "2009-01-01T00:00:00Z",
+							"any": null
+						},
+						"AdditionalValidationReportData": {
+							"ReportData": [
+								{
+									"Type": "urn:cef:dss:message:error",
+									"Value": "The certificate chain for signature is not trusted, it does not contain a trust anchor."
+								},
+								{
+									"Type": "urn:cef:dss:message:error",
+									"Value": "The algorithm SHA1 is no longer considered reliable for signature creation!"
+								}
+							]
+						}
+					}
+				]
+			},
+			"any": null
+		}
+	],
+	"SignatureValidationObjects": {
+		"ValidationObject": [
+			{
+				"id": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843",
+				"ObjectType": "urn:etsi:019102:validationObject:certificate",
+				"ValidationObjectRepresentation": {
+					"direct": null,
+					"base64": null,
+					"DigestAlgAndValue": {
+						"DigestMethod": {
+							"content": null,
+							"Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+						},
+						"DigestValue": "vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg="
+					},
+					"URI": null
+				},
+				"POE": {
+					"POETime": "2023-03-09T11:29:38Z",
+					"TypeOfProof": "urn:etsi:019102:poetype:validation",
+					"POEObject": null
+				},
+				"POEProvisioning": null,
+				"ValidationReport": null
+			},
+			{
+				"id": "DOCUMENT_Full-PDF",
+				"ObjectType": "urn:etsi:019102:validationObject:signedData",
+				"ValidationObjectRepresentation": {
+					"direct": null,
+					"base64": null,
+					"DigestAlgAndValue": {
+						"DigestMethod": {
+							"content": null,
+							"Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+						},
+						"DigestValue": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+					},
+					"URI": null
+				},
+				"POE": {
+					"POETime": "2023-03-09T11:29:38Z",
+					"TypeOfProof": "urn:etsi:019102:poetype:validation",
+					"POEObject": null
+				},
+				"POEProvisioning": null,
+				"ValidationReport": null
+			}
+		]
+	},
+	"SignatureValidator": null,
+	"Signature": null
+} 

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DiagnosticData xmlns="http://dss.esig.europa.eu/validation/diagnostic">    
+    <DocumentName>Barid eSign - CertQ 1.pdf</DocumentName>
+    <ValidationDate>2023-03-09T11:29:38Z</ValidationDate>
+    <Signatures>        
+        <Signature Id="SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459">            
+            <SignatureFilename>Barid eSign - CertQ 1.pdf</SignatureFilename>
+            <ClaimedSigningTime>2020-08-27T14:59:15Z</ClaimedSigningTime>
+            <SignatureFormat>PDF-NOT-ETSI</SignatureFormat>
+            <StructuralValidation valid="true"/>
+            <DigestMatchers>                
+                <DigestMatcher type="MESSAGE_DIGEST">                    
+                    <DigestMethod>SHA1</DigestMethod>
+                    <DigestValue>1ieave1O2f05nR6S6xDu8BMDoTc=</DigestValue>
+                    <DataFound>true</DataFound>
+                    <DataIntact>true</DataIntact>
+                </DigestMatcher>
+            </DigestMatchers>
+            <BasicSignature>                
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>2048</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA1</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"/>
+            <CertificateChain>                
+                <ChainItem Certificate="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"/>
+            </CertificateChain>
+            <ContentType>1.2.840.113549.1.7.1</ContentType>
+            <CommitmentTypeIndications/>
+            <SignerInformationStore>                
+                <SignerInfo Current="true">                    
+                    <IssuerName>CN=Baridesign AC Classe 3, OU=Baridesign, OU=50413, O=Barid Al Maghrib, C=MA</IssuerName>
+                    <SerialNumber>176582600188646856643663170787160952277423105426</SerialNumber>
+                </SignerInfo>
+            </SignerInformationStore>
+            <PDFRevision>                
+                <SignatureField name="Signature1"/>
+                <PDFSignatureDictionary>                    
+                    <Type>Sig</Type>
+                    <Filter>Adobe.PPKLite</Filter>
+                    <SubFilter>ETSI.CAdES.detached</SubFilter>
+                    <SignatureByteRange>0 3785 20171 159363</SignatureByteRange>
+                </PDFSignatureDictionary>
+            </PDFRevision>
+            <SignerDocumentRepresentations HashOnly="false" DocHashOnly="false"/>
+            <FoundCertificates>                
+                <RelatedCertificate Certificate="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843">                    
+                    <Origin>SIGNED_DATA</Origin>
+                    <CertificateRef>                        
+                        <Origin>SIGNING_CERTIFICATE</Origin>
+                        <DigestAlgoAndValue match="true">                            
+                            <DigestMethod>SHA1</DigestMethod>
+                            <DigestValue>v+Tq6nR/hPxiXIJcCUWsvMIC3uQ=</DigestValue>
+                        </DigestAlgoAndValue>
+                    </CertificateRef>
+                </RelatedCertificate>
+            </FoundCertificates>
+            <FoundRevocations/>
+            <FoundTimestamps/>
+            <SignatureScopes>                
+                <SignatureScope SignerData="DOCUMENT_Full-PDF">                    
+                    <Scope>FULL</Scope>
+                    <Name>Full PDF</Name>
+                    <Description>The document ByteRange : [0, 3785, 20171, 159363]</Description>
+                </SignatureScope>
+            </SignatureScopes>
+            <SignatureDigestReference>                
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>thsL6xL3+Ljc5n5PI9HDflKWHRDMoLz4DunRxUEZWf0=</DigestValue>
+            </SignatureDigestReference>
+            <DataToBeSignedRepresentation>                
+                <DigestMethod>SHA1</DigestMethod>
+                <DigestValue>j3CEH84ccldDX5XQTMa4mKTRngw=</DigestValue>
+            </DataToBeSignedRepresentation>
+            <SignatureValue>Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==</SignatureValue>
+        </Signature>
+    </Signatures>
+    <UsedCertificates>        
+        <Certificate Id="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843">            
+            <SubjectDistinguishedName Format="CANONICAL">2.5.4.5=#130839392d3131373432,uid=y35007,cn=el bahhari abdessamad,ou=ancfcc,o=ancfcc,c=ma</SubjectDistinguishedName>
+            <SubjectDistinguishedName Format="RFC2253">2.5.4.5=#130839392d3131373432,UID=Y35007,CN=EL BAHHARI Abdessamad,OU=ANCFCC,O=ANCFCC,C=MA</SubjectDistinguishedName>
+            <IssuerDistinguishedName Format="CANONICAL">cn=baridesign ac classe 3,ou=baridesign,ou=50413,o=barid al maghrib,c=ma</IssuerDistinguishedName>
+            <IssuerDistinguishedName Format="RFC2253">CN=Baridesign AC Classe 3,OU=Baridesign,OU=50413,O=Barid Al Maghrib,C=MA</IssuerDistinguishedName>
+            <SerialNumber>176582600188646856643663170787160952277423105426</SerialNumber>
+            <SubjectSerialNumber>99-11742</SubjectSerialNumber>
+            <CommonName>EL BAHHARI Abdessamad</CommonName>
+            <CountryName>MA</CountryName>
+            <OrganizationName>ANCFCC</OrganizationName>
+            <OrganizationalUnit>ANCFCC</OrganizationalUnit>
+            <SubjectAlternativeNames>                
+                <subjectAlternativeName>a.elbahhari@ancfcc.gov.ma</subjectAlternativeName>
+            </SubjectAlternativeNames>
+            <AuthorityInformationAccessUrls/>
+            <CRLDistributionPoints>                
+                <crlUrl>http://psce.baridesign.ma/ACDeleguees_Externes/crl/Classe3__AC-crl-2.crl</crlUrl>
+            </CRLDistributionPoints>
+            <OCSPAccessUrls>                
+                <ocspServerUrl>http://psce.baridesign.ma/ACDeleguees_Externes/ocsp/Classe3__OCSP</ocspServerUrl>
+            </OCSPAccessUrls>
+            <Sources>                
+                <Source>SIGNATURE</Source>
+            </Sources>
+            <NotAfter>2020-05-08T08:43:16Z</NotAfter>
+            <NotBefore>2018-05-08T08:43:16Z</NotBefore>
+            <PublicKeySize>2048</PublicKeySize>
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>
+            <EntityKey>PK-7DB85D5FC505797B848F745BE0774DAA5423E6A040B98BBBCDC581F985AAB12F</EntityKey>
+            <KeyUsageBits>                
+                <KeyUsage>nonRepudiation</KeyUsage>
+            </KeyUsageBits>
+            <ExtendedKeyUsages/>
+            <IdPkixOcspNoCheck>false</IdPkixOcspNoCheck>
+            <BasicSignature>                
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>?</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>false</SignatureIntact>
+                <SignatureValid>false</SignatureValid>
+            </BasicSignature>
+            <CertificateChain/>
+            <Trusted>false</Trusted>
+            <SelfSigned>false</SelfSigned>
+            <CertificatePolicies>                
+                <certificatePolicy cpsUrl="Signature__Securisee">1.2.504.1.1.1.1.1.1.1.27.4</certificatePolicy>
+            </CertificatePolicies>
+            <QcStatements>                
+                <QcCompliance present="true"/>
+                <QcSSCD present="true"/>
+            </QcStatements>
+            <TrustedServiceProviders/>
+            <DigestAlgoAndValue>                
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=</DigestValue>
+            </DigestAlgoAndValue>
+        </Certificate>
+    </UsedCertificates>
+    <UsedRevocations/>
+    <UsedTimestamps/>
+    <OriginalDocuments>        
+        <SignerData Id="DOCUMENT_Full-PDF">            
+            <ReferencedName>Full PDF</ReferencedName>
+            <DigestAlgoAndValue>                
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+            </DigestAlgoAndValue>
+        </SignerData>
+    </OriginalDocuments>
+    <TrustedLists/>
+</DiagnosticData>

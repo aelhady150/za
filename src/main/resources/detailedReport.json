@@ -1,0 +1,1037 @@
+{
+	"certificates": [],
+	"signatureIds": [
+		"SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459"
+	],
+	"revocationIds": [],
+	"timestampIds": [],
+	"jaxbmodel": {
+		"signatureOrTimestampOrCertificate": [
+			{
+				"Signature": {
+					"ValidationProcessBasicSignature": {
+						"Constraint": [
+							{
+								"Name": {
+									"value": "Is the result of the 'Format Checking' building block conclusive?",
+									"Key": "BSV_IFCRC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the result of the 'Identification of Signing Certificate' building block conclusive?",
+									"Key": "BSV_IISCRC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the result of the 'Validation Context Initialization' building block conclusive?",
+									"Key": "BSV_IVCIRC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the result of the 'X.509 Certificate Validation' building block conclusive?",
+									"Key": "BSV_IXCVRC"
+								},
+								"Status": "WARNING",
+								"Error": null,
+								"Warning": {
+									"value": "The result of the 'X.509 Certificate Validation' building block is not conclusive!",
+									"Key": "BSV_IXCVRC_ANS"
+								},
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the signing certificate not revoked at validation time?",
+									"Key": "BSV_ISCRAVTC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the validation time in the validity range of the signing certificate?",
+									"Key": "BSV_IVTAVRSC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the result of the 'Cryptographic Verification' building block conclusive?",
+									"Key": "BSV_ICVRC"
+								},
+								"Status": "OK",
+								"Error": null,
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV",
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Is the result of the Basic Validation Process conclusive?",
+									"Key": "ADEST_ROBVPIIC"
+								},
+								"Status": "NOT OK",
+								"Error": {
+									"value": "The result of the Basic validation process is not conclusive!",
+									"Key": "ADEST_ROBVPIIC_ANS"
+								},
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": "Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication",
+								"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+								"BlockType": null
+							}
+						],
+						"Conclusion": {
+							"Indication": "INDETERMINATE",
+							"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+							"Errors": [
+								{
+									"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+									"Key": "BBB_XCV_CCCBB_SIG_ANS"
+								},
+								{
+									"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+									"Key": "ASCCM_AR_ANS_ANR"
+								}
+							],
+							"Warnings": [],
+							"Infos": []
+						},
+						"Title": "Validation Process for Basic Signatures",
+						"ProofOfExistence": {
+							"Time": "2023-03-09T11:29:38Z",
+							"TimestampId": null
+						}
+					},
+					"Timestamp": [],
+					"ValidationProcessLongTermData": {
+						"CRS": null,
+						"RFC": null,
+						"Constraint": [
+							{
+								"Name": {
+									"value": "Is the result of the Basic Validation Process acceptable?",
+									"Key": "LTV_ABSV"
+								},
+								"Status": "NOT OK",
+								"Error": {
+									"value": "The result of the Basic validation process is not acceptable to continue the process!",
+									"Key": "LTV_ABSV_ANS"
+								},
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": null,
+								"BlockType": null
+							}
+						],
+						"Conclusion": {
+							"Indication": "INDETERMINATE",
+							"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+							"Errors": [
+								{
+									"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+									"Key": "BBB_XCV_CCCBB_SIG_ANS"
+								},
+								{
+									"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+									"Key": "ASCCM_AR_ANS_ANR"
+								}
+							],
+							"Warnings": [],
+							"Infos": []
+						},
+						"Title": "Validation Process for Signatures with Time and Signatures with Long-Term Validation Data",
+						"ProofOfExistence": {
+							"Time": "2023-03-09T11:29:38Z",
+							"TimestampId": null
+						}
+					},
+					"ValidationProcessArchivalData": {
+						"Constraint": [
+							{
+								"Name": {
+									"value": "Is the result of the LTV validation process acceptable?",
+									"Key": "ARCH_LTVV"
+								},
+								"Status": "NOT OK",
+								"Error": {
+									"value": "The result of the LTV validation process is not acceptable to continue the process!",
+									"Key": "ARCH_LTVV_ANS"
+								},
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": null,
+								"BlockType": null
+							}
+						],
+						"Conclusion": {
+							"Indication": "INDETERMINATE",
+							"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+							"Errors": [
+								{
+									"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+									"Key": "BBB_XCV_CCCBB_SIG_ANS"
+								},
+								{
+									"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+									"Key": "ASCCM_AR_ANS_ANR"
+								}
+							],
+							"Warnings": [],
+							"Infos": []
+						},
+						"Title": "Validation Process for Signatures with Archival Data",
+						"ProofOfExistence": {
+							"Time": "2023-03-09T11:29:38Z",
+							"TimestampId": null
+						}
+					},
+					"ValidationSignatureQualification": {
+						"ValidationCertificateQualification": [],
+						"Constraint": [
+							{
+								"Name": {
+									"value": "Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?",
+									"Key": "QUAL_IS_ADES"
+								},
+								"Status": "WARNING",
+								"Error": null,
+								"Warning": {
+									"value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+									"Key": "QUAL_IS_ADES_IND"
+								},
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": null,
+								"BlockType": null
+							},
+							{
+								"Name": {
+									"value": "Has a trusted list been reached for the certificate chain?",
+									"Key": "QUAL_CERT_TRUSTED_LIST_REACHED"
+								},
+								"Status": "NOT OK",
+								"Error": {
+									"value": "Unable to build a certificate chain up to a trusted list!",
+									"Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+								},
+								"Warning": null,
+								"Info": null,
+								"AdditionalInfo": null,
+								"Id": null,
+								"BlockType": null
+							}
+						],
+						"Conclusion": {
+							"Indication": "FAILED",
+							"SubIndication": null,
+							"Errors": [
+								{
+									"value": "Unable to build a certificate chain up to a trusted list!",
+									"Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+								}
+							],
+							"Warnings": [
+								{
+									"value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+									"Key": "QUAL_IS_ADES_IND"
+								}
+							],
+							"Infos": []
+						},
+						"Title": "Signature Qualification",
+						"SignatureQualification": "N/A"
+					},
+					"Conclusion": {
+						"Indication": "INDETERMINATE",
+						"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+						"Errors": null,
+						"Warnings": null,
+						"Infos": null
+					},
+					"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+					"CounterSignature": null
+				}
+			}
+		],
+		"BasicBuildingBlocks": [
+			{
+				"FC": {
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Does the signature format correspond to an expected format?",
+								"Key": "BBB_FC_IEFF"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signature identification not ambiguous?",
+								"Key": "BBB_FC_ISD"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed references identification not ambiguous?",
+								"Key": "BBB_FC_ISRIA"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is only one SignerInfo present?",
+								"Key": "BBB_FC_IOSIP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Do signed and final revisions contain equal amount of pages?",
+								"Key": "BBB_FC_DSFREAP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is no element overlapping detected in the PDF?",
+								"Key": "BBB_FC_IAOD"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is there no visual difference between signed and final revisions in the PDF?",
+								"Key": "BBB_FC_IVDBSFR"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Does the document contain none of the undefined object modifications?",
+								"Key": "BBB_FC_DSCNUOM"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "PASSED",
+						"SubIndication": null,
+						"Errors": [],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "Format Checking"
+				},
+				"ISC": {
+					"CertificateChain": {
+						"ChainItem": [
+							{
+								"Source": "SIGNATURE",
+								"Id": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+							}
+						]
+					},
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Is there an identified candidate for the signing certificate?",
+								"Key": "BBB_ICS_ISCI"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed attribute: 'cert-digest' of the certificate present?",
+								"Key": "BBB_ICS_ISACDP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Does the certificate digest value match a digest value found in the certificate reference(s)?",
+								"Key": "BBB_ICS_ICDVV"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "PASSED",
+						"SubIndication": null,
+						"Errors": [],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "Identification of the Signing Certificate"
+				},
+				"VCI": {
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Is the signature policy known?",
+								"Key": "BBB_VCI_ISPK"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "PASSED",
+						"SubIndication": null,
+						"Errors": [],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "Validation Context Initialization"
+				},
+				"XCV": {
+					"SubXCV": [],
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Can the certificate chain be built till a trust anchor?",
+								"Key": "BBB_XCV_CCCBB"
+							},
+							"Status": "NOT OK",
+							"Error": {
+								"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+								"Key": "BBB_XCV_CCCBB_SIG_ANS"
+							},
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "INDETERMINATE",
+						"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+						"Errors": [
+							{
+								"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+								"Key": "BBB_XCV_CCCBB_SIG_ANS"
+							}
+						],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "X509 Certificate Validation"
+				},
+				"CV": {
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Has the reference data object been found?",
+								"Key": "BBB_CV_IRDOF"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": "Reference : MESSAGE_DIGEST",
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the reference data object intact?",
+								"Key": "BBB_CV_IRDOI"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": "Reference : MESSAGE_DIGEST",
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signature intact?",
+								"Key": "BBB_CV_ISI"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "PASSED",
+						"SubIndication": null,
+						"Errors": [],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "Cryptographic Verification"
+				},
+				"SAV": {
+					"CryptographicValidation": {
+						"Algorithm": {
+							"Name": "RSA with SHA1",
+							"Uri": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+							"KeyLength": "2048"
+						},
+						"NotAfter": "2009-01-01T00:00:00Z",
+						"ValidationTime": "2023-03-09T11:29:38Z",
+						"ConcernedMaterial": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+						"secure": false
+					},
+					"Constraint": [
+						{
+							"Name": {
+								"value": "Is the structure of the signature valid?",
+								"Key": "BBB_SAV_ISSV"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed attribute: 'signing-certificate' present?",
+								"Key": "BBB_ICS_ISASCP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed attribute: 'signing-certificate' present only once?",
+								"Key": "BBB_ICS_ISASCPU"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Does the 'Signing Certificate' attribute contain references only to the certificate chain?",
+								"Key": "BBB_SAV_DSCACRCC"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed qualifying property: 'signing-time' present?",
+								"Key": "BBB_SAV_ISQPSTP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Is the signed qualifying property: 'message-digest' or 'SignedProperties' present?",
+								"Key": "BBB_SAV_ISQPMDOSPP"
+							},
+							"Status": "OK",
+							"Error": null,
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": null,
+							"Id": null,
+							"BlockType": null
+						},
+						{
+							"Name": {
+								"value": "Are cryptographic constraints met for the signature creation?",
+								"Key": "ACCM"
+							},
+							"Status": "NOT OK",
+							"Error": {
+								"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+								"Key": "ASCCM_AR_ANS_ANR"
+							},
+							"Warning": null,
+							"Info": null,
+							"AdditionalInfo": "The algorithm SHA1 is no longer considered reliable for signature creation! for the token at the validation time : 2023-03-09 11:29",
+							"Id": null,
+							"BlockType": null
+						}
+					],
+					"Conclusion": {
+						"Indication": "INDETERMINATE",
+						"SubIndication": "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+						"Errors": [
+							{
+								"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+								"Key": "ASCCM_AR_ANS_ANR"
+							}
+						],
+						"Warnings": [],
+						"Infos": []
+					},
+					"Title": "Signature Acceptance Validation"
+				},
+				"PSV": null,
+				"PSV_CRS": null,
+				"PCV": null,
+				"VTS": null,
+				"CertificateChain": {
+					"ChainItem": [
+						{
+							"Source": "SIGNATURE",
+							"Id": "CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"
+						}
+					]
+				},
+				"Conclusion": {
+					"Indication": "INDETERMINATE",
+					"SubIndication": "CRYPTO_CONSTRAINTS_FAILURE_NO_POE",
+					"Errors": [
+						{
+							"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+							"Key": "BBB_XCV_CCCBB_SIG_ANS"
+						},
+						{
+							"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+							"Key": "ASCCM_AR_ANS_ANR"
+						}
+					],
+					"Warnings": [],
+					"Infos": []
+				},
+				"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+				"Type": "SIGNATURE"
+			}
+		],
+		"TLAnalysis": [],
+		"Semantic": null,
+		"ValidationTime": "2023-03-09T11:29:38Z"
+	},
+	"firstSignatureId": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+	"signatures": [
+		{
+			"ValidationProcessBasicSignature": {
+				"Constraint": [
+					{
+						"Name": {
+							"value": "Is the result of the 'Format Checking' building block conclusive?",
+							"Key": "BSV_IFCRC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-FC",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the result of the 'Identification of Signing Certificate' building block conclusive?",
+							"Key": "BSV_IISCRC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-ISC",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the result of the 'Validation Context Initialization' building block conclusive?",
+							"Key": "BSV_IVCIRC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-VCI",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the result of the 'X.509 Certificate Validation' building block conclusive?",
+							"Key": "BSV_IXCVRC"
+						},
+						"Status": "WARNING",
+						"Error": null,
+						"Warning": {
+							"value": "The result of the 'X.509 Certificate Validation' building block is not conclusive!",
+							"Key": "BSV_IXCVRC_ANS"
+						},
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the signing certificate not revoked at validation time?",
+							"Key": "BSV_ISCRAVTC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the validation time in the validity range of the signing certificate?",
+							"Key": "BSV_IVTAVRSC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-XCV",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the result of the 'Cryptographic Verification' building block conclusive?",
+							"Key": "BSV_ICVRC"
+						},
+						"Status": "OK",
+						"Error": null,
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459-CV",
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Is the result of the Basic Validation Process conclusive?",
+							"Key": "ADEST_ROBVPIIC"
+						},
+						"Status": "NOT OK",
+						"Error": {
+							"value": "The result of the Basic validation process is not conclusive!",
+							"Key": "ADEST_ROBVPIIC_ANS"
+						},
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": "Basic Signature Validation process failed with INDETERMINATE/NO_CERTIFICATE_CHAIN_FOUND indication",
+						"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+						"BlockType": null
+					}
+				],
+				"Conclusion": {
+					"Indication": "INDETERMINATE",
+					"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+					"Errors": [
+						{
+							"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+							"Key": "BBB_XCV_CCCBB_SIG_ANS"
+						},
+						{
+							"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+							"Key": "ASCCM_AR_ANS_ANR"
+						}
+					],
+					"Warnings": [],
+					"Infos": []
+				},
+				"Title": "Validation Process for Basic Signatures",
+				"ProofOfExistence": {
+					"Time": "2023-03-09T11:29:38Z",
+					"TimestampId": null
+				}
+			},
+			"Timestamp": [],
+			"ValidationProcessLongTermData": {
+				"CRS": null,
+				"RFC": null,
+				"Constraint": [
+					{
+						"Name": {
+							"value": "Is the result of the Basic Validation Process acceptable?",
+							"Key": "LTV_ABSV"
+						},
+						"Status": "NOT OK",
+						"Error": {
+							"value": "The result of the Basic validation process is not acceptable to continue the process!",
+							"Key": "LTV_ABSV_ANS"
+						},
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": null,
+						"BlockType": null
+					}
+				],
+				"Conclusion": {
+					"Indication": "INDETERMINATE",
+					"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+					"Errors": [
+						{
+							"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+							"Key": "BBB_XCV_CCCBB_SIG_ANS"
+						},
+						{
+							"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+							"Key": "ASCCM_AR_ANS_ANR"
+						}
+					],
+					"Warnings": [],
+					"Infos": []
+				},
+				"Title": "Validation Process for Signatures with Time and Signatures with Long-Term Validation Data",
+				"ProofOfExistence": {
+					"Time": "2023-03-09T11:29:38Z",
+					"TimestampId": null
+				}
+			},
+			"ValidationProcessArchivalData": {
+				"Constraint": [
+					{
+						"Name": {
+							"value": "Is the result of the LTV validation process acceptable?",
+							"Key": "ARCH_LTVV"
+						},
+						"Status": "NOT OK",
+						"Error": {
+							"value": "The result of the LTV validation process is not acceptable to continue the process!",
+							"Key": "ARCH_LTVV_ANS"
+						},
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": null,
+						"BlockType": null
+					}
+				],
+				"Conclusion": {
+					"Indication": "INDETERMINATE",
+					"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+					"Errors": [
+						{
+							"value": "The certificate chain for signature is not trusted, it does not contain a trust anchor.",
+							"Key": "BBB_XCV_CCCBB_SIG_ANS"
+						},
+						{
+							"value": "The algorithm SHA1 is no longer considered reliable for signature creation!",
+							"Key": "ASCCM_AR_ANS_ANR"
+						}
+					],
+					"Warnings": [],
+					"Infos": []
+				},
+				"Title": "Validation Process for Signatures with Archival Data",
+				"ProofOfExistence": {
+					"Time": "2023-03-09T11:29:38Z",
+					"TimestampId": null
+				}
+			},
+			"ValidationSignatureQualification": {
+				"ValidationCertificateQualification": [],
+				"Constraint": [
+					{
+						"Name": {
+							"value": "Is the signature/seal an acceptable AdES digital signature (ETSI EN 319 102-1)?",
+							"Key": "QUAL_IS_ADES"
+						},
+						"Status": "WARNING",
+						"Error": null,
+						"Warning": {
+							"value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+							"Key": "QUAL_IS_ADES_IND"
+						},
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": null,
+						"BlockType": null
+					},
+					{
+						"Name": {
+							"value": "Has a trusted list been reached for the certificate chain?",
+							"Key": "QUAL_CERT_TRUSTED_LIST_REACHED"
+						},
+						"Status": "NOT OK",
+						"Error": {
+							"value": "Unable to build a certificate chain up to a trusted list!",
+							"Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+						},
+						"Warning": null,
+						"Info": null,
+						"AdditionalInfo": null,
+						"Id": null,
+						"BlockType": null
+					}
+				],
+				"Conclusion": {
+					"Indication": "FAILED",
+					"SubIndication": null,
+					"Errors": [
+						{
+							"value": "Unable to build a certificate chain up to a trusted list!",
+							"Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+						}
+					],
+					"Warnings": [
+						{
+							"value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+							"Key": "QUAL_IS_ADES_IND"
+						}
+					],
+					"Infos": []
+				},
+				"Title": "Signature Qualification",
+				"SignatureQualification": "N/A"
+			},
+			"Conclusion": {
+				"Indication": "INDETERMINATE",
+				"SubIndication": "NO_CERTIFICATE_CHAIN_FOUND",
+				"Errors": null,
+				"Warnings": null,
+				"Infos": null
+			},
+			"Id": "SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459",
+			"CounterSignature": null
+		}
+	],
+	"basicBuildingBlocksNumber": 1,
+	"independentTimestamps": []
+}

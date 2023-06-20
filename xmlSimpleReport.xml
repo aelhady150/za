@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SimpleReport ValidationTime="2023-03-09T11:29:38Z" xmlns="http://dss.esig.europa.eu/validation/simple-report">    
+    <ValidationPolicy>        
+        <PolicyName>QES AdESQC TL based</PolicyName>
+        <PolicyDescription>Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\t</PolicyDescription>
+    </ValidationPolicy>
+    <DocumentName>Barid eSign - CertQ 1.pdf</DocumentName>
+    <ValidSignaturesCount>0</ValidSignaturesCount>
+    <SignaturesCount>1</SignaturesCount>
+    <Signature SignatureFormat="PDF-NOT-ETSI" Id="SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459">        
+        <CertificateChain>            
+            <Certificate>                
+                <id>CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843</id>
+                <qualifiedName>EL BAHHARI Abdessamad</qualifiedName>
+            </Certificate>
+        </CertificateChain>
+        <Indication>INDETERMINATE</Indication>
+        <SubIndication>NO_CERTIFICATE_CHAIN_FOUND</SubIndication>
+        <AdESValidationDetails>            
+            <Error Key="BBB_XCV_CCCBB_SIG_ANS">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Error>
+            <Error Key="ASCCM_AR_ANS_ANR">The algorithm SHA1 is no longer considered reliable for signature creation!</Error>
+        </AdESValidationDetails>
+        <QualificationDetails>            
+            <Error Key="QUAL_CERT_TRUSTED_LIST_REACHED_ANS">Unable to build a certificate chain up to a trusted list!</Error>
+            <Warning Key="QUAL_IS_ADES_IND">The signature/seal is an INDETERMINATE AdES digital signature!</Warning>
+        </QualificationDetails>
+        <SigningTime>2020-08-27T14:59:15Z</SigningTime>
+        <BestSignatureTime>2023-03-09T11:29:38Z</BestSignatureTime>
+        <SignedBy>EL BAHHARI Abdessamad</SignedBy>
+        <SignatureLevel description="Not applicable">N/A</SignatureLevel>
+        <SignatureScope Id="DOCUMENT_Full-PDF" name="Full PDF" scope="FULL">The document ByteRange : [0, 3785, 20171, 159363]</SignatureScope>
+    </Signature>
+</SimpleReport>

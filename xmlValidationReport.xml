@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ValidationReport xmlns="http://uri.etsi.org/19102/v1.2.1#" xmlns:ns2="http://uri.etsi.org/02231/v2#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#">    
+    <SignatureValidationReport>        
+        <SignatureIdentifier id="SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459">            
+            <DigestAlgAndValue>                
+                <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ns3:DigestValue>j3CEH84ccldDX5XQTMa4mKTRngw=</ns3:DigestValue>
+            </DigestAlgAndValue>
+            <ns3:SignatureValue>Fzq4rskV3LtP62EumB1bl+YxZ7bstlOIFz6KPZ3Yy4unlok3sUBwTAIOuzansuBQxWQMoTW2MU2G1kSyfLufqUV3OQ8yuYGxxfQyOPhqc+CYHYew2czccn7fC0yzK9d9/Xnwb6WvgkaoVlkcMKpcDWTLNlT/EDqbMel7cDX7ETvzk1Z5Yb5QTm2REcdURYNBxmIman/m9o3PWlYlgisJY9PL8jiDGKlTL6RwCQVXFpoC9MTpOQZmEyuWlLY5HbNkeLP/6M32r2Qf1m3uLk5zRhtnbLjw6sXUOUkVIF+LfgO6zIXlFPR6pI1fHQdqhzy/TmajpFdQY0817WBQy78pLA==</ns3:SignatureValue>
+            <HashOnly>false</HashOnly>
+            <DocHashOnly>false</DocHashOnly>
+        </SignatureIdentifier>
+        <ValidationConstraintsEvaluationReport>            
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:formatChecking</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:identificationOfTheSigningCertificate</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:validationContextInitialization</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:cryptographicVerification</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:passed</MainIndication>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:signatureAcceptanceValidation</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>
+                    <SubIndication>urn:etsi:019102:subindication:CRYPTO_CONSTRAINTS_FAILURE_NO_POE</SubIndication>
+                    <AssociatedValidationReportData>                        
+                        <AdditionalValidationReportData>                            
+                            <ReportData>                                
+                                <Type>urn:cef:dss:message:error</Type>
+                                <Value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The algorithm SHA1 is no longer considered reliable for signature creation!</Value>
+                            </ReportData>
+                        </AdditionalValidationReportData>
+                    </AssociatedValidationReportData>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:x509CertificateValidation</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:applied</Status>
+                </ConstraintStatus>
+                <ValidationStatus>                    
+                    <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>
+                    <SubIndication>urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND</SubIndication>
+                    <AssociatedValidationReportData>                        
+                        <AdditionalValidationReportData>                            
+                            <ReportData>                                
+                                <Type>urn:cef:dss:message:error</Type>
+                                <Value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Value>
+                            </ReportData>
+                        </AdditionalValidationReportData>
+                    </AssociatedValidationReportData>
+                </ValidationStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:pastSignatureValidation</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>
+                </ConstraintStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:pastCertificateValidation</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>
+                </ConstraintStatus>
+            </ValidationConstraint>
+            <ValidationConstraint>                
+                <ValidationConstraintIdentifier>urn:cef:dss:bbb:validationTimeSliding</ValidationConstraintIdentifier>
+                <ConstraintStatus>                    
+                    <Status>urn:etsi:019102:constraintStatus:disabled</Status>
+                </ConstraintStatus>
+            </ValidationConstraint>
+        </ValidationConstraintsEvaluationReport>
+        <ValidationTimeInfo>            
+            <ValidationTime>2023-03-09T11:29:38Z</ValidationTime>
+            <BestSignatureTime>                
+                <POETime>2023-03-09T11:29:38Z</POETime>
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>
+            </BestSignatureTime>
+        </ValidationTimeInfo>
+        <SignersDocument>            
+            <DigestAlgAndValue>                
+                <ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ns3:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</ns3:DigestValue>
+            </DigestAlgAndValue>
+            <SignersDocumentRepresentation VOReference="DOCUMENT_Full-PDF"/>
+        </SignersDocument>
+        <SignatureAttributes>            
+            <SigningTime Signed="true">                
+                <Time>2020-08-27T14:59:15Z</Time>
+            </SigningTime>
+            <SigningCertificate Signed="true">                
+                <AttributeObject VOReference="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"/>
+            </SigningCertificate>
+            <DataObjectFormat Signed="true">                
+                <ContentType>1.2.840.113549.1.7.1</ContentType>
+            </DataObjectFormat>
+            <MessageDigest Signed="true">                
+                <Digest>1ieave1O2f05nR6S6xDu8BMDoTc=</Digest>
+            </MessageDigest>
+            <SubFilter>                
+                <SubFilterElement>ETSI.CAdES.detached</SubFilterElement>
+            </SubFilter>
+            <ByteRange>0 3785 20171 159363</ByteRange>
+            <Filter>                
+                <Filter>Adobe.PPKLite</Filter>
+            </Filter>
+        </SignatureAttributes>
+        <SignerInformation>            
+            <SignerCertificate VOReference="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"/>
+            <Signer>EL BAHHARI Abdessamad</Signer>
+        </SignerInformation>
+        <SignatureQuality>            
+            <SignatureQualityInformation>urn:cef:dss:signatureQualification:notApplicable</SignatureQualityInformation>
+        </SignatureQuality>
+        <SignatureValidationProcess>            
+            <SignatureValidationProcessID>urn:etsi:019102:validationprocess:LTA</SignatureValidationProcessID>
+        </SignatureValidationProcess>
+        <SignatureValidationStatus>            
+            <MainIndication>urn:etsi:019102:mainindication:indeterminate</MainIndication>
+            <SubIndication>urn:etsi:019102:subindication:NO_CERTIFICATE_CHAIN_FOUND</SubIndication>
+            <AssociatedValidationReportData>                
+                <CertificateChain>                    
+                    <SigningCertificate VOReference="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843"/>
+                </CertificateChain>
+                <CryptoInformation>                    
+                    <ValidationObjectId VOReference="SIGNATURE_EL-BAHHARI-Abdessamad_20200827-1459"/>
+                    <Algorithm>http://www.w3.org/2000/09/xmldsig#rsa-sha1</Algorithm>
+                    <SecureAlgorithm>false</SecureAlgorithm>
+                    <NotAfter>2009-01-01T00:00:00Z</NotAfter>
+                </CryptoInformation>
+                <AdditionalValidationReportData>                    
+                    <ReportData>                        
+                        <Type>urn:cef:dss:message:error</Type>
+                        <Value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The certificate chain for signature is not trusted, it does not contain a trust anchor.</Value>
+                    </ReportData>
+                    <ReportData>                        
+                        <Type>urn:cef:dss:message:error</Type>
+                        <Value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The algorithm SHA1 is no longer considered reliable for signature creation!</Value>
+                    </ReportData>
+                </AdditionalValidationReportData>
+            </AssociatedValidationReportData>
+        </SignatureValidationStatus>
+    </SignatureValidationReport>
+    <SignatureValidationObjects>        
+        <ValidationObject id="CERTIFICATE_EL-BAHHARI-Abdessamad_20180508-0843">            
+            <ObjectType>urn:etsi:019102:validationObject:certificate</ObjectType>
+            <ValidationObjectRepresentation>                
+                <DigestAlgAndValue>                    
+                    <ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                    <ns3:DigestValue>vHZIW1P25ANIRVph07sq33iM2LcI0Pn0C7YJLDqOfOg=</ns3:DigestValue>
+                </DigestAlgAndValue>
+            </ValidationObjectRepresentation>
+            <POE>                
+                <POETime>2023-03-09T11:29:38Z</POETime>
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>
+            </POE>
+        </ValidationObject>
+        <ValidationObject id="DOCUMENT_Full-PDF">            
+            <ObjectType>urn:etsi:019102:validationObject:signedData</ObjectType>
+            <ValidationObjectRepresentation>                
+                <DigestAlgAndValue>                    
+                    <ns3:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                    <ns3:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</ns3:DigestValue>
+                </DigestAlgAndValue>
+            </ValidationObjectRepresentation>
+            <POE>                
+                <POETime>2023-03-09T11:29:38Z</POETime>
+                <TypeOfProof>urn:etsi:019102:poetype:validation</TypeOfProof>
+            </POE>
+        </ValidationObject>
+    </SignatureValidationObjects>
+</ValidationReport>
